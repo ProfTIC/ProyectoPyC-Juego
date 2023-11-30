@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>2ª fase. Creación de los escenarios | Proyecto programación y computación - Juego con greenfoot </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Mª Dolores Robles Ortega" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nd/4.0/" />
+<meta name="generator" content="eXeLearning 2.8 Portable - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-3"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Proyecto programación y computación - Juego con greenfoot</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Proyecto programación y computación - Juego Space Invaders usando Greenfoot</a></li>
+   <li><a href="1_fase_eleccin_de_las_herramientas_de_trabajo_del_proyecto.html" class="no-ch">1ª fase. Elección de las herramientas de trabajo del proyecto</a></li>
+   <li id="active"><a href="2_fase_creacin_de_los_escenarios.html" class="active no-ch">2ª fase. Creación de los escenarios</a></li>
+   <li><a href="anexo_uso_bsico_de_github.html" class="no-ch">Anexo. Uso básico de github</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="1_fase_eleccin_de_las_herramientas_de_trabajo_del_proyecto.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="anexo_uso_bsico_de_github.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">2ª fase. Creación de los escenarios</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id10">
+<div class="iDevice emphasis0" >
+<div id="ta10_129_2" class="block iDevice_content">
+<div class="exe-text"><p>En greenfoot los escenarios se crean a partir de subclases de la clase <a href="https://www.greenfoot.org/files/javadoc/greenfoot/World.html">World.</a> En esta sección veremos aspectos básicos del manejo de esta clase:</p>
+<ul>
+<li><a href="2_fase_creacin_de_los_escenarios.html#nuevoEscenario">Crear un nuevo escenario</a></li>
+<li><a href="2_fase_creacin_de_los_escenarios.html#edicionEscenario">Opciones para editar el escenario</a></li>
+<li><a href="2_fase_creacin_de_los_escenarios.html#funcionesCodigoWorld">Funciones de la clase World (escenario)</a></li>
+</ul></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id11">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Crear un nuevo escenario (nueva subclase de World)</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta11_130_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="nuevoEscenario"></a> Para crear una nueva clase que será nuestro escenario, pulsamos sobre la clase World con el botón derecho del ratón y seleccionamos la opción <strong><em>New subclass:</em></strong></p>
+<p><img src="NuevaSubclase.png" alt="Crear una nueva subclase de World" style="display: block; margin-left: auto; margin-right: auto;" width="253" height="142" /></p>
+<p>Se mostrará la siguiente ventana:</p>
+<p><img src="NuevoEscenario.png" alt="Ventana para crear un nuevo escenario" style="display: block; margin-left: auto; margin-right: auto;" width="790" height="725" /></p>
+<p>Tendremos que elegir:</p>
+<ul>
+<li>Si va a ser stride o java. La primera opción permite modificar el código en forma de bloque. Utilizaremos de momento la segunda, para poder editar directamente el código java</li>
+<li>El nombre </li>
+<li>Las imágenes del escenario. Podemos usar algunas de las que vienen por defecto en greenfoot o bien crear una imagen nueva, seleccionar o pegar una ya existente</li>
+</ul>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id12">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Opciones para editar el escenario</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta12_131_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="edicionEscenario"></a> Para ver las opciones que nos permite el<em> framework</em> de greenfoot, pulsamos con el botón derecho sobre la clase del escenario y nos mostrará algo parecido a la siguiente imagen:</p>
+<p><img src="OpcionesEscenarioRecortada.png" alt="Opciones del escenario" style="display: block; margin-left: auto; margin-right: auto;" width="284" height="289" /></p>
+<p>Vamos a ver de forma breve qué significa cada opción:</p>
+<ul>
+<li><span style="font-size: 12pt;"><code><strong>new NuevoEscenario(). </strong></code></span>Permite crear el escenario y aplicarlo en el programa. Cuando lo creamos, se genera la estructura, pero realmente no se ha llegado a crear en el programa</li>
+<li><strong>Inspect.</strong> Accederemos al código del programa y podremos editarlo. Será una ventana similar a la siguiente:</li>
+<li><img src="CodigoNuevoEscenario.png" alt="Código del nuevo escenario" style="display: block; margin-left: auto; margin-right: auto;" width="1129" height="627" /><strong>Delete</strong>. Para borrar el escenario</li>
+<li><strong>Set image</strong>. Cambia el icono del escenario. No hay que confundir el icono con el fondo (<em>background</em>)</li>
+<li><strong>Duplicate</strong>. Duplica el escenario</li>
+<li><strong>Convert to stride</strong>. Cambia el modo de visualización del código a un estilo de bloques</li>
+</ul>
+<p></p>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id13">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Funciones de la clase World (escenario)</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta13_132_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="funcionesCodigoWorld"></a>Todas las funciones de la clase World y la documentación correspondiente se pueden consultar en esta <a href="https://www.greenfoot.org/files/javadoc/greenfoot/World.html" target="_blank" rel="noopener">página</a>. En esta sección se explicarán las más significativas, sin llegar a hacer un repaso exhaustivo de todas las posibilidades:</p>
+<ul>
+<li><strong>Constructor</strong></li>
+</ul>
+<p>Es el primer procedimiento que se ejecuta cuando se crea un objeto de la clase. Por defecto, el código que automáticamente crea greenfoot es similar al siguiente:</p>
+<pre> 
+
+    public NuevoEscenario()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(600, 400, 1); 
+        
+    }
+
+</pre>
+<p>El método super() se utiliza para llamar al constructor de la clase padre (World) con los parámetros de anchura, altura y tamaño de celda).</p>
+<ul>
+<li><strong>Cambiar la imagen de fondo</strong></li>
+</ul>
+<p>Para cambiar la imagen de fondo usaremos la instrucción <code>setBackground(). </code>, con el nombre de una imagen (debe estar en la carpeta images del proyecto) o con un objeto de tipo GreenfoootImage. A continuación se muestra un código de ejemplo para establecer como imagen de fondo el archivo "imagen.jpg" dentro del propio constructor:</p>
+<p><img src="NuevoEscenarioImagen.png" alt="Nuevo escenario con imagen" style="display: block; margin-left: auto; margin-right: auto;" width="1128" height="760" /></p>
+<ul>
+<li><strong>Cambiar un escenario por otro</strong></li>
+</ul>
+<p>En el caso de que tengamos varios escenarios, podemos intercambiar uno por otro usando la instrucción setWorld de la clase Greenfoot. Por ejemplo, si tenemos una clase nuevoEscenario y queremos usarlo tendríamos que usar:</p>
+<p><img src="CambiarEscenarioCodigo.png" alt="Código para cambiar el escenario" style="display: block; margin-left: auto; margin-right: auto;" width="396" height="41" /></p>
+<ul>
+<li><strong>Volver a pintar el mundo</strong></li>
+</ul>
+<p>Si necesitamos volver a pintar el escenario, podremos usar el método <em><strong>repaint()</strong></em></p>
+<ul>
+<li><strong>Empezar la ejecución</strong></li>
+</ul>
+<p>El método <strong><em>started() </em></strong>se llama cuando comienza la ejecución del juego. En la implementación inicial está vacío, por lo que hay que sobreescribirlo (<em>overwrite) </em>para implementar e incluir las instrucciones que necesitemos ejecutar cuando el juego empiece.</p>
+<ul>
+<li><strong>Parar la ejecución</strong></li>
+</ul>
+<p>El método inverso al anterior y que se ejecuta cuando el juego para es <strong><em>stopped(). </em></strong>Al igual que antes, el método original está vacío y hay que sobreescribirlo para incluir las instrucciones que necesitemos para finalizar el juego</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id14">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Tarea 2</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta14_133_2" class="block iDevice_content">
+<div class="pbl-task-description"><ul>
+<li>Definir al menos tres escenarios: <br />
+<ul>
+<li>Juego</li>
+<li>Pantalla de haber ganado el juego</li>
+<li>Pantalla de <em>game over </em></li>
+</ul>
+</li>
+<li>Para cada escenario se personalizará el diseño. Las imágenes que uséis deberán ser de elaboración propia o libres de derechos</li>
+</ul>
+<p><span style="font-size: 14pt;"><strong>Qué se entrega en esta fase</strong></span></p>
+<ul>
+<li><span style="font-size: 12pt;"><strong>Url del repositorio donde estarán todos los archivos del proyecto de greenfoot</strong></span></li>
+<li><span style="font-size: 12pt;"><strong>Documento explicando brevemente cada escenario, incluyendo la procedencia de las imágenes utilizadas (elaboración propia o url donde se han obtenido)</strong></span><span style="font-size: 12pt;"><strong></strong></span></li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nd">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Licencia Creative Commons Reconocimiento Sin obra derivada 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="1_fase_eleccin_de_las_herramientas_de_trabajo_del_proyecto.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="anexo_uso_bsico_de_github.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script></body></html>
