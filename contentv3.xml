@@ -85,13 +85,13 @@
   <string role="key" value="_name"></string>
   <unicode value="InstruccionesProyecto"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="15"></int>
+  <int value="27"></int>
   <string role="key" value="_nextNodeId"></string>
-  <int value="4"></int>
+  <int value="5"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
-   <instance class="exe.engine.node.Node" reference="26">
+   <instance class="exe.engine.node.Node" reference="25">
     <dictionary>
      <string role="key" value="_title"></string>
      <unicode value="Proyecto programación y computación - Juego Space Invaders usando Greenfoot"></unicode>
@@ -170,12 +170,14 @@
            <string value=""></string>
            <string role="key" value="anchor_names"></string>
            <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
            <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;A continuación se explicarán los pasos necesarios para implementar el juego &lt;em&gt;Space Invaders&lt;/em&gt; usando la librería Greenfoot en java. Las tareas se van a dividir en cuatro fases:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:1%C2%AA%20fase.%20Elecci%C3%B3n%20de%20las%20herramientas%20de%20trabajo%20del%20proyecto%20#auto_top&quot;&gt;1ª fase. Elección de las herramientas de trabajo del proyecto&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:2%C2%AA%20fase.%20Creaci%C3%B3n%20de%20los%20escenarios#auto_top&quot;&gt;2ª fase. Creación de los escenarios&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;3ª fase. Personajes (elección e implementación del comportamiento de los personajes)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#auto_top&quot;&gt;3ª fase. Personajes (elección e implementación del comportamiento de los personajes)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;4ª fase. Funcionamiento del juego (inicio, fin, puntuaciones,...)&lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -198,7 +200,7 @@
            <string role="key" value="intlinks_to_anchors"></string>
            <dictionary>
             <unicode role="key" value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:1%C2%AA%20fase.%20Elecci%C3%B3n%20de%20las%20herramientas%20de%20trabajo%20del%20proyecto%20#auto_top"></unicode>
-            <instance class="exe.engine.node.Node" reference="21">
+            <instance class="exe.engine.node.Node" reference="26">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="1ª fase. Elección de las herramientas de trabajo del proyecto "></unicode>
@@ -277,6 +279,8 @@
                     <string value=""></string>
                     <string role="key" value="anchor_names"></string>
                     <list></list>
+                    <string role="key" value="anchors_linked_from_fields"></string>
+                    <dictionary></dictionary>
                     <string role="key" value="content_w_resourcePaths"></string>
                     <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Vamos a usar las siguientes herramientas:&lt;/p&gt;
 &lt;ul&gt;
@@ -382,6 +386,8 @@
                              <string value=""></string>
                              <string role="key" value="anchor_names"></string>
                              <list></list>
+                             <string role="key" value="anchors_linked_from_fields"></string>
+                             <dictionary></dictionary>
                              <string role="key" value="content_w_resourcePaths"></string>
                              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;En este manual se explicarán tres elementos básicos del funcionamiento de github:&lt;/p&gt;
 &lt;ul&gt;
@@ -505,11 +511,11 @@
                                      <string role="key" value="_package"></string>
                                      <reference key="10"></reference>
                                      <string role="key" value="_storageName"></string>
-                                     <string value="OpcionSettings.png"></string>
+                                     <string value="AddColaborador.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/Opci\xc3\xb3nSettings.png"></string>
+                                     <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\AddColaborador.png"></string>
                                      <string role="key" value="checksum"></string>
-                                     <string value="5f90cb786f93ff4fcec27f64386e0323"></string>
+                                     <string value="ecbda0fb280889f085f5666988f086a8"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                                      <int value="2"></int>
                                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -527,7 +533,7 @@
                                      <string role="key" value="_storageName"></string>
                                      <string value="Colaboradores.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/Colaboradores.png"></string>
+                                     <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\Colaboradores.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="c55055016bf823d3ea7c93a8bff9e5f7"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -545,11 +551,11 @@
                                      <string role="key" value="_package"></string>
                                      <reference key="10"></reference>
                                      <string role="key" value="_storageName"></string>
-                                     <string value="AddColaborador.png"></string>
+                                     <string value="OpcionSettings.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/AddColaborador.png"></string>
+                                     <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\OpcionSettings.png"></string>
                                      <string role="key" value="checksum"></string>
-                                     <string value="ecbda0fb280889f085f5666988f086a8"></string>
+                                     <string value="5f90cb786f93ff4fcec27f64386e0323"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                                      <int value="2"></int>
                                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -611,7 +617,7 @@
                                      <instance class="exe.engine.field.TextField">
                                       <dictionary>
                                        <string role="key" value="_id"></string>
-                                       <int value="248"></int>
+                                       <int value="279"></int>
                                        <string role="key" value="_idevice"></string>
                                        <none></none>
                                        <string role="key" value="_instruc"></string>
@@ -625,7 +631,7 @@
                                       </dictionary>
                                      </instance>
                                      <string role="key" value="_id"></string>
-                                     <unicode value="7_126_2.0"></unicode>
+                                     <unicode value="7_126_2.6"></unicode>
                                      <string role="key" value="_imageResource"></string>
                                      <reference key="11"></reference>
                                      <string role="key" value="_parent"></string>
@@ -644,7 +650,7 @@
                                      <instance class="exe.engine.field.TextField">
                                       <dictionary>
                                        <string role="key" value="_id"></string>
-                                       <int value="249"></int>
+                                       <int value="284"></int>
                                        <string role="key" value="_idevice"></string>
                                        <none></none>
                                        <string role="key" value="_instruc"></string>
@@ -658,7 +664,7 @@
                                       </dictionary>
                                      </instance>
                                      <string role="key" value="_id"></string>
-                                     <unicode value="7_126_2.1"></unicode>
+                                     <unicode value="7_126_2.7"></unicode>
                                      <string role="key" value="_imageResource"></string>
                                      <reference key="12"></reference>
                                      <string role="key" value="_parent"></string>
@@ -677,7 +683,7 @@
                                      <instance class="exe.engine.field.TextField">
                                       <dictionary>
                                        <string role="key" value="_id"></string>
-                                       <int value="250"></int>
+                                       <int value="290"></int>
                                        <string role="key" value="_idevice"></string>
                                        <none></none>
                                        <string role="key" value="_instruc"></string>
@@ -691,7 +697,7 @@
                                       </dictionary>
                                      </instance>
                                      <string role="key" value="_id"></string>
-                                     <unicode value="7_126_2.2"></unicode>
+                                     <unicode value="7_126_2.8"></unicode>
                                      <string role="key" value="_imageResource"></string>
                                      <reference key="13"></reference>
                                      <string role="key" value="_parent"></string>
@@ -712,7 +718,7 @@
                                 <string role="key" value="intlinks_to_anchors"></string>
                                 <dictionary></dictionary>
                                 <string role="key" value="nextImageId"></string>
-                                <int value="3"></int>
+                                <int value="9"></int>
                                 <string role="key" value="parentNode"></string>
                                 <reference key="8"></reference>
                                </dictionary>
@@ -815,7 +821,7 @@
                                      <string role="key" value="_storageName"></string>
                                      <string value="UrlRepositorio.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/UrlRepositorio.png"></string>
+                                     <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\UrlRepositorio.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="05af1c3ac54c15d47e18ba5b284bbe46"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -871,7 +877,7 @@
                                      <instance class="exe.engine.field.TextField">
                                       <dictionary>
                                        <string role="key" value="_id"></string>
-                                       <int value="251"></int>
+                                       <int value="293"></int>
                                        <string role="key" value="_idevice"></string>
                                        <none></none>
                                        <string role="key" value="_instruc"></string>
@@ -885,7 +891,7 @@
                                       </dictionary>
                                      </instance>
                                      <string role="key" value="_id"></string>
-                                     <unicode value="8_127_2.0"></unicode>
+                                     <unicode value="8_127_2.2"></unicode>
                                      <string role="key" value="_imageResource"></string>
                                      <reference key="16"></reference>
                                      <string role="key" value="_parent"></string>
@@ -906,7 +912,7 @@
                                 <string role="key" value="intlinks_to_anchors"></string>
                                 <dictionary></dictionary>
                                 <string role="key" value="nextImageId"></string>
-                                <int value="1"></int>
+                                <int value="3"></int>
                                 <string role="key" value="parentNode"></string>
                                 <reference key="8"></reference>
                                </dictionary>
@@ -1007,11 +1013,11 @@
                                      <string role="key" value="_package"></string>
                                      <reference key="10"></reference>
                                      <string role="key" value="_storageName"></string>
-                                     <string value="FormularioRepositorioGithub.png"></string>
+                                     <string value="BotonNuevoRepositorio.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/FormularioRepositorioGithub.png"></string>
+                                     <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\BotonNuevoRepositorio.png"></string>
                                      <string role="key" value="checksum"></string>
-                                     <string value="8e5acf3ca43730047e24c9681eea0b52"></string>
+                                     <string value="3f57575bbc7da74e18016ecd11ea2ba2"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                                      <int value="2"></int>
                                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -1027,11 +1033,11 @@
                                      <string role="key" value="_package"></string>
                                      <reference key="10"></reference>
                                      <string role="key" value="_storageName"></string>
-                                     <string value="BotonNuevoRepositorio.png"></string>
+                                     <string value="FormularioRepositorioGithub.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/Bot\xc3\xb3nNuevoRepositorio.png"></string>
+                                     <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\FormularioRepositorioGithub.png"></string>
                                      <string role="key" value="checksum"></string>
-                                     <string value="3f57575bbc7da74e18016ecd11ea2ba2"></string>
+                                     <string value="8e5acf3ca43730047e24c9681eea0b52"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                                      <int value="2"></int>
                                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -1094,7 +1100,7 @@
                                      <instance class="exe.engine.field.TextField">
                                       <dictionary>
                                        <string role="key" value="_id"></string>
-                                       <int value="246"></int>
+                                       <int value="281"></int>
                                        <string role="key" value="_idevice"></string>
                                        <none></none>
                                        <string role="key" value="_instruc"></string>
@@ -1108,7 +1114,7 @@
                                       </dictionary>
                                      </instance>
                                      <string role="key" value="_id"></string>
-                                     <unicode value="4_124_2.1"></unicode>
+                                     <unicode value="4_124_2.5"></unicode>
                                      <string role="key" value="_imageResource"></string>
                                      <reference key="19"></reference>
                                      <string role="key" value="_parent"></string>
@@ -1127,7 +1133,7 @@
                                      <instance class="exe.engine.field.TextField">
                                       <dictionary>
                                        <string role="key" value="_id"></string>
-                                       <int value="247"></int>
+                                       <int value="285"></int>
                                        <string role="key" value="_idevice"></string>
                                        <none></none>
                                        <string role="key" value="_instruc"></string>
@@ -1141,7 +1147,7 @@
                                       </dictionary>
                                      </instance>
                                      <string role="key" value="_id"></string>
-                                     <unicode value="4_124_2.2"></unicode>
+                                     <unicode value="4_124_2.6"></unicode>
                                      <string role="key" value="_imageResource"></string>
                                      <reference key="20"></reference>
                                      <string role="key" value="_parent"></string>
@@ -1162,18 +1168,18 @@
                                 <string role="key" value="intlinks_to_anchors"></string>
                                 <dictionary></dictionary>
                                 <string role="key" value="nextImageId"></string>
-                                <int value="3"></int>
+                                <int value="7"></int>
                                 <string role="key" value="parentNode"></string>
-                                <reference key="21"></reference>
+                                <reference key="8"></reference>
                                </dictionary>
                               </instance>
                               <unicode role="key" value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:Anexo.%20Uso%20b%C3%A1sico%20de%20github#subirarchivos"></unicode>
-                              <instance class="exe.engine.field.TextAreaField" reference="22">
+                              <instance class="exe.engine.field.TextAreaField" reference="21">
                                <dictionary>
                                 <string role="key" value="_id"></string>
                                 <unicode value="128_2"></unicode>
                                 <string role="key" value="_idevice"></string>
-                                <instance class="exe.engine.jsidevice.JsIdevice" reference="23">
+                                <instance class="exe.engine.jsidevice.JsIdevice" reference="22">
                                  <dictionary>
                                   <string role="key" value="_title"></string>
                                   <unicode value="Subir archivos"></unicode>
@@ -1234,7 +1240,7 @@
                                   <int value="1"></int>
                                   <string role="key" value="fields"></string>
                                   <list>
-                                   <reference key="22"></reference>
+                                   <reference key="21"></reference>
                                   </list>
                                   <string role="key" value="icon"></string>
                                   <unicode value=""></unicode>
@@ -1256,16 +1262,16 @@
                                   <bool value="1"></bool>
                                   <string role="key" value="userResources"></string>
                                   <list>
-                                   <instance class="exe.engine.resource.Resource" reference="24">
+                                   <instance class="exe.engine.resource.Resource" reference="23">
                                     <dictionary>
                                      <string role="key" value="_idevice"></string>
-                                     <reference key="23"></reference>
+                                     <reference key="22"></reference>
                                      <string role="key" value="_package"></string>
                                      <reference key="10"></reference>
                                      <string role="key" value="_storageName"></string>
                                      <string value="AddFileRecortado.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/AddFileRecortado.png"></string>
+                                     <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\AddFileRecortado.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="5aa501a34f74b835a5c6d193cbd85918"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1276,16 +1282,16 @@
                                      <string value=""></string>
                                     </dictionary>
                                    </instance>
-                                   <instance class="exe.engine.resource.Resource" reference="25">
+                                   <instance class="exe.engine.resource.Resource" reference="24">
                                     <dictionary>
                                      <string role="key" value="_idevice"></string>
-                                     <reference key="23"></reference>
+                                     <reference key="22"></reference>
                                      <string role="key" value="_package"></string>
                                      <reference key="10"></reference>
                                      <string role="key" value="_storageName"></string>
                                      <string value="SubirArchivo.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/SubirArchivo.png"></string>
+                                     <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\SubirArchivo.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="2346246e89a2773033fec63da436bff2"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1351,7 +1357,7 @@
                                      <instance class="exe.engine.field.TextField">
                                       <dictionary>
                                        <string role="key" value="_id"></string>
-                                       <int value="252"></int>
+                                       <int value="280"></int>
                                        <string role="key" value="_idevice"></string>
                                        <none></none>
                                        <string role="key" value="_instruc"></string>
@@ -1365,11 +1371,11 @@
                                       </dictionary>
                                      </instance>
                                      <string role="key" value="_id"></string>
-                                     <unicode value="9_128_2.0"></unicode>
+                                     <unicode value="9_128_2.4"></unicode>
                                      <string role="key" value="_imageResource"></string>
-                                     <reference key="24"></reference>
+                                     <reference key="23"></reference>
                                      <string role="key" value="_parent"></string>
-                                     <reference key="22"></reference>
+                                     <reference key="21"></reference>
                                      <string role="key" value="_thumbnailResource"></string>
                                      <none></none>
                                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -1384,7 +1390,7 @@
                                      <instance class="exe.engine.field.TextField">
                                       <dictionary>
                                        <string role="key" value="_id"></string>
-                                       <int value="253"></int>
+                                       <int value="292"></int>
                                        <string role="key" value="_idevice"></string>
                                        <none></none>
                                        <string role="key" value="_instruc"></string>
@@ -1398,11 +1404,11 @@
                                       </dictionary>
                                      </instance>
                                      <string role="key" value="_id"></string>
-                                     <unicode value="9_128_2.1"></unicode>
+                                     <unicode value="9_128_2.5"></unicode>
                                      <string role="key" value="_imageResource"></string>
-                                     <reference key="25"></reference>
+                                     <reference key="24"></reference>
                                      <string role="key" value="_parent"></string>
-                                     <reference key="22"></reference>
+                                     <reference key="21"></reference>
                                      <string role="key" value="_thumbnailResource"></string>
                                      <none></none>
                                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -1413,13 +1419,13 @@
                                    </instance>
                                   </list>
                                   <string role="key" value="idevice"></string>
-                                  <reference key="22"></reference>
+                                  <reference key="21"></reference>
                                  </dictionary>
                                 </instance>
                                 <string role="key" value="intlinks_to_anchors"></string>
                                 <dictionary></dictionary>
                                 <string role="key" value="nextImageId"></string>
-                                <int value="2"></int>
+                                <int value="6"></int>
                                 <string role="key" value="parentNode"></string>
                                 <reference key="8"></reference>
                                </dictionary>
@@ -1428,7 +1434,7 @@
                              <string role="key" value="nextImageId"></string>
                              <int value="0"></int>
                              <string role="key" value="parentNode"></string>
-                             <none></none>
+                             <reference key="8"></reference>
                             </dictionary>
                            </instance>
                           </list>
@@ -1459,7 +1465,7 @@
                         <reference key="18"></reference>
                         <reference key="15"></reference>
                         <reference key="9"></reference>
-                        <reference key="23"></reference>
+                        <reference key="22"></reference>
                        </list>
                        <string role="key" value="_id"></string>
                        <unicode value="2"></unicode>
@@ -1470,7 +1476,7 @@
                         <reference key="17"></reference>
                         <reference key="7"></reference>
                         <reference key="14"></reference>
-                        <reference key="22"></reference>
+                        <reference key="21"></reference>
                        </list>
                        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
                        <int value="2"></int>
@@ -1479,7 +1485,7 @@
                        <string role="key" value="last_full_node_path"></string>
                        <string value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:Anexo.%20Uso%20b%C3%A1sico%20de%20github"></string>
                        <string role="key" value="parent"></string>
-                       <reference key="26"></reference>
+                       <reference key="25"></reference>
                        <string role="key" value="top_anchors_linked_from_fields"></string>
                        <list>
                         <reference key="4"></reference>
@@ -1492,7 +1498,7 @@
                     <string role="key" value="nextImageId"></string>
                     <int value="0"></int>
                     <string role="key" value="parentNode"></string>
-                    <none></none>
+                    <reference key="26"></reference>
                    </dictionary>
                   </instance>
                  </list>
@@ -1509,7 +1515,7 @@
                  <string role="key" value="originalicon"></string>
                  <string value=""></string>
                  <string role="key" value="parentNode"></string>
-                 <reference key="21"></reference>
+                 <reference key="26"></reference>
                  <string role="key" value="systemResources"></string>
                  <list></list>
                  <string role="key" value="undo"></string>
@@ -1593,6 +1599,8 @@
                     <string value=""></string>
                     <string role="key" value="anchor_names"></string>
                     <list></list>
+                    <string role="key" value="anchors_linked_from_fields"></string>
+                    <dictionary></dictionary>
                     <string role="key" value="content_w_resourcePaths"></string>
                     <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;ul&gt;
 &lt;li&gt;Instalar el framework de greenfoot&lt;/li&gt;
@@ -1626,7 +1634,7 @@
                     <string role="key" value="nextImageId"></string>
                     <int value="0"></int>
                     <string role="key" value="parentNode"></string>
-                    <none></none>
+                    <reference key="26"></reference>
                    </dictionary>
                   </instance>
                  </list>
@@ -1643,7 +1651,7 @@
                  <string role="key" value="originalicon"></string>
                  <unicode value="activity"></unicode>
                  <string role="key" value="parentNode"></string>
-                 <reference key="21"></reference>
+                 <reference key="26"></reference>
                  <string role="key" value="systemResources"></string>
                  <list></list>
                  <string role="key" value="undo"></string>
@@ -1668,7 +1676,7 @@
               <string role="key" value="last_full_node_path"></string>
               <string value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:1%C2%AA%20fase.%20Elecci%C3%B3n%20de%20las%20herramientas%20de%20trabajo%20del%20proyecto%20"></string>
               <string role="key" value="parent"></string>
-              <reference key="26"></reference>
+              <reference key="25"></reference>
               <string role="key" value="top_anchors_linked_from_fields"></string>
               <list>
                <reference key="2"></reference>
@@ -1757,6 +1765,8 @@
                     <string value=""></string>
                     <string role="key" value="anchor_names"></string>
                     <list></list>
+                    <string role="key" value="anchors_linked_from_fields"></string>
+                    <dictionary></dictionary>
                     <string role="key" value="content_w_resourcePaths"></string>
                     <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;En greenfoot los escenarios se crean a partir de subclases de la clase &lt;a href=&quot;https://www.greenfoot.org/files/javadoc/greenfoot/World.html&quot;&gt;World.&lt;/a&gt; En esta sección veremos aspectos básicos del manejo de esta clase:&lt;/p&gt;
 &lt;ul&gt;
@@ -1879,11 +1889,11 @@
                             <string role="key" value="_package"></string>
                             <reference key="10"></reference>
                             <string role="key" value="_storageName"></string>
-                            <string value="OpcionesEscenarioRecortada.png"></string>
+                            <string value="CodigoNuevoEscenario.png"></string>
                             <string role="key" value="_userName"></string>
-                            <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/OpcionesEscenarioRecortada.png"></string>
+                            <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\CodigoNuevoEscenario.png"></string>
                             <string role="key" value="checksum"></string>
-                            <string value="44687d6af5ee0751f3b51b99a9a80921"></string>
+                            <string value="d7da17b56a1f485f42d21735e21135b6"></string>
                             <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                             <int value="2"></int>
                             <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -1899,11 +1909,11 @@
                             <string role="key" value="_package"></string>
                             <reference key="10"></reference>
                             <string role="key" value="_storageName"></string>
-                            <string value="CodigoNuevoEscenario.png"></string>
+                            <string value="OpcionesEscenarioRecortada.png"></string>
                             <string role="key" value="_userName"></string>
-                            <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/C\xc3\xb3digoNuevoEscenario.png"></string>
+                            <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\OpcionesEscenarioRecortada.png"></string>
                             <string role="key" value="checksum"></string>
-                            <string value="d7da17b56a1f485f42d21735e21135b6"></string>
+                            <string value="44687d6af5ee0751f3b51b99a9a80921"></string>
                             <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                             <int value="2"></int>
                             <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -1965,7 +1975,7 @@
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="256"></int>
+                              <int value="283"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -1979,7 +1989,7 @@
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="12_131_2.0"></unicode>
+                            <unicode value="12_131_2.4"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <reference key="34"></reference>
                             <string role="key" value="_parent"></string>
@@ -1998,7 +2008,7 @@
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="257"></int>
+                              <int value="289"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -2012,7 +2022,7 @@
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="12_131_2.1"></unicode>
+                            <unicode value="12_131_2.5"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <reference key="35"></reference>
                             <string role="key" value="_parent"></string>
@@ -2033,7 +2043,7 @@
                        <string role="key" value="intlinks_to_anchors"></string>
                        <dictionary></dictionary>
                        <string role="key" value="nextImageId"></string>
-                       <int value="2"></int>
+                       <int value="6"></int>
                        <string role="key" value="parentNode"></string>
                        <reference key="32"></reference>
                       </dictionary>
@@ -2134,11 +2144,11 @@
                             <string role="key" value="_package"></string>
                             <reference key="10"></reference>
                             <string role="key" value="_storageName"></string>
-                            <string value="NuevoEscenarioImagen.png"></string>
+                            <string value="CambiarEscenarioCodigo.png"></string>
                             <string role="key" value="_userName"></string>
-                            <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/NuevoEscenarioImagen.png"></string>
+                            <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\CambiarEscenarioCodigo.png"></string>
                             <string role="key" value="checksum"></string>
-                            <string value="f165ed4fe8828a62b1cb8bce4a5531c7"></string>
+                            <string value="2055f73ed5bba1104c353171545c65fa"></string>
                             <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                             <int value="2"></int>
                             <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -2154,11 +2164,11 @@
                             <string role="key" value="_package"></string>
                             <reference key="10"></reference>
                             <string role="key" value="_storageName"></string>
-                            <string value="CambiarEscenarioCodigo.png"></string>
+                            <string value="NuevoEscenarioImagen.png"></string>
                             <string role="key" value="_userName"></string>
-                            <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/CambiarEscenarioCodigo.png"></string>
+                            <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\NuevoEscenarioImagen.png"></string>
                             <string role="key" value="checksum"></string>
-                            <string value="2055f73ed5bba1104c353171545c65fa"></string>
+                            <string value="f165ed4fe8828a62b1cb8bce4a5531c7"></string>
                             <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                             <int value="2"></int>
                             <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -2245,7 +2255,7 @@
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="258"></int>
+                              <int value="282"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -2259,7 +2269,7 @@
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="13_132_2.0"></unicode>
+                            <unicode value="13_132_2.4"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <reference key="38"></reference>
                             <string role="key" value="_parent"></string>
@@ -2278,7 +2288,7 @@
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="259"></int>
+                              <int value="288"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -2292,7 +2302,7 @@
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="13_132_2.1"></unicode>
+                            <unicode value="13_132_2.5"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <reference key="39"></reference>
                             <string role="key" value="_parent"></string>
@@ -2313,7 +2323,7 @@
                        <string role="key" value="intlinks_to_anchors"></string>
                        <dictionary></dictionary>
                        <string role="key" value="nextImageId"></string>
-                       <int value="2"></int>
+                       <int value="6"></int>
                        <string role="key" value="parentNode"></string>
                        <reference key="32"></reference>
                       </dictionary>
@@ -2416,7 +2426,7 @@
                             <string role="key" value="_storageName"></string>
                             <string value="NuevaSubclase.png"></string>
                             <string role="key" value="_userName"></string>
-                            <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/NuevaSubclase.png"></string>
+                            <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\NuevaSubclase.png"></string>
                             <string role="key" value="checksum"></string>
                             <string value="e385a2e87d33fb276ab792f99d4960f3"></string>
                             <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2436,7 +2446,7 @@
                             <string role="key" value="_storageName"></string>
                             <string value="NuevoEscenario.png"></string>
                             <string role="key" value="_userName"></string>
-                            <string value="/tmp/tmpet_dVY.eXe/previews/allyourbase/NuevoEscenario.png"></string>
+                            <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\NuevoEscenario.png"></string>
                             <string role="key" value="checksum"></string>
                             <string value="d692e41ebca72567cfb64e8d431c019e"></string>
                             <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2498,7 +2508,7 @@
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="254"></int>
+                              <int value="286"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -2512,7 +2522,7 @@
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="11_130_2.0"></unicode>
+                            <unicode value="11_130_2.4"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <reference key="42"></reference>
                             <string role="key" value="_parent"></string>
@@ -2531,7 +2541,7 @@
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="255"></int>
+                              <int value="287"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -2545,7 +2555,7 @@
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="11_130_2.1"></unicode>
+                            <unicode value="11_130_2.5"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <reference key="43"></reference>
                             <string role="key" value="_parent"></string>
@@ -2566,7 +2576,7 @@
                        <string role="key" value="intlinks_to_anchors"></string>
                        <dictionary></dictionary>
                        <string role="key" value="nextImageId"></string>
-                       <int value="2"></int>
+                       <int value="6"></int>
                        <string role="key" value="parentNode"></string>
                        <reference key="32"></reference>
                       </dictionary>
@@ -2575,7 +2585,7 @@
                     <string role="key" value="nextImageId"></string>
                     <int value="0"></int>
                     <string role="key" value="parentNode"></string>
-                    <none></none>
+                    <reference key="32"></reference>
                    </dictionary>
                   </instance>
                  </list>
@@ -2679,6 +2689,8 @@
                     <string value=""></string>
                     <string role="key" value="anchor_names"></string>
                     <list></list>
+                    <string role="key" value="anchors_linked_from_fields"></string>
+                    <dictionary></dictionary>
                     <string role="key" value="content_w_resourcePaths"></string>
                     <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;ul&gt;
 &lt;li&gt;Definir al menos tres escenarios: &lt;br /&gt;
@@ -2717,7 +2729,7 @@
                     <string role="key" value="nextImageId"></string>
                     <int value="0"></int>
                     <string role="key" value="parentNode"></string>
-                    <none></none>
+                    <reference key="32"></reference>
                    </dictionary>
                   </instance>
                  </list>
@@ -2763,7 +2775,1644 @@
               <string role="key" value="last_full_node_path"></string>
               <string value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:2%C2%AA%20fase.%20Creaci%C3%B3n%20de%20los%20escenarios"></string>
               <string role="key" value="parent"></string>
-              <reference key="26"></reference>
+              <reference key="25"></reference>
+              <string role="key" value="top_anchors_linked_from_fields"></string>
+              <list>
+               <reference key="2"></reference>
+              </list>
+              <string role="key" value="children"></string>
+              <list></list>
+             </dictionary>
+            </instance>
+            <unicode role="key" value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#auto_top"></unicode>
+            <instance class="exe.engine.node.Node" reference="49">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="3ª fase. Personajes (elección e implementación del comportamiento de los personajes)"></unicode>
+              <string role="key" value="idevices"></string>
+              <list>
+               <instance class="exe.engine.jsidevice.JsIdevice" reference="46">
+                <dictionary>
+                 <string role="key" value="_title"></string>
+                 <unicode value=""></unicode>
+                 <string role="key" value="_attributes"></string>
+                 <list>
+                  <tuple>
+                   <string value="title"></string>
+                   <list>
+                    <string value="Title"></string>
+                    <int value="0"></int>
+                    <int value="0"></int>
+                   </list>
+                  </tuple>
+                  <tuple>
+                   <string value="category"></string>
+                   <list>
+                    <string value="Category"></string>
+                    <int value="0"></int>
+                    <int value="1"></int>
+                   </list>
+                  </tuple>
+                  <tuple>
+                   <string value="css-class"></string>
+                   <list>
+                    <string value="CSS class"></string>
+                    <int value="0"></int>
+                    <int value="2"></int>
+                   </list>
+                  </tuple>
+                  <tuple>
+                   <string value="icon"></string>
+                   <list>
+                    <string value="Icon"></string>
+                    <int value="0"></int>
+                    <int value="3"></int>
+                   </list>
+                  </tuple>
+                 </list>
+                 <string role="key" value="_author"></string>
+                 <string value=""></string>
+                 <string role="key" value="_iDeviceDir"></string>
+                 <string value="text"></string>
+                 <string role="key" value="_purpose"></string>
+                 <string value=""></string>
+                 <string role="key" value="_tip"></string>
+                 <string value=""></string>
+                 <string role="key" value="_typeName"></string>
+                 <unicode value="Text"></unicode>
+                 <string role="key" value="_valid"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="class_"></string>
+                 <unicode value="text"></unicode>
+                 <string role="key" value="edit"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="emphasis"></string>
+                 <int value="0"></int>
+                 <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+                 <int value="1"></int>
+                 <string role="key" value="fields"></string>
+                 <list>
+                  <instance class="exe.engine.field.TextAreaField" reference="47">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <unicode value="126_2"></unicode>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="46"></reference>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="anchor_names"></string>
+                    <list></list>
+                    <string role="key" value="anchors_linked_from_fields"></string>
+                    <dictionary></dictionary>
+                    <string role="key" value="content_w_resourcePaths"></string>
+                    <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;En Greenfoot todos los personajes heredan de la clase padre Actor, cuya especificación se puede consultar en esta &lt;a href=&quot;https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;página&lt;/a&gt;. A continuación se explicarán algunos de los métodos de esta clase que pueden ser más útiles. Al igual que con la clase World, en este documento no se hace un repaso exhaustivo de todas las funciones, solo se describen algunas de las más significativas.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#constructorActor&quot;&gt;Constructor: public Actor()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#setImageActor&quot;&gt;void setImage()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#actActor&quot;&gt;void act()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#moveActor&quot;&gt;void move (int distance)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#isAtEdge&quot;&gt;boolean isAtEdge()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#turnActor&quot;&gt;turn (int amount)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#turnTowardsActor&quot;&gt;turnTowards (int x, int y)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;"></unicode>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                    <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                    <int value="3"></int>
+                    <string role="key" value="htmlTag"></string>
+                    <string value="div"></string>
+                    <string role="key" value="images"></string>
+                    <instance class="exe.engine.galleryidevice.GalleryImages">
+                     <dictionary>
+                      <string role="key" value=".listitems"></string>
+                      <list></list>
+                      <string role="key" value="idevice"></string>
+                      <reference key="47"></reference>
+                     </dictionary>
+                    </instance>
+                    <string role="key" value="intlinks_to_anchors"></string>
+                    <dictionary>
+                     <unicode role="key" value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#actActor"></unicode>
+                     <instance class="exe.engine.field.TextAreaField" reference="48">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <unicode value="129_2"></unicode>
+                       <string role="key" value="_idevice"></string>
+                       <instance class="exe.engine.jsidevice.JsIdevice" reference="59">
+                        <dictionary>
+                         <string role="key" value="_title"></string>
+                         <unicode value="public void act()"></unicode>
+                         <string role="key" value="_attributes"></string>
+                         <list>
+                          <tuple>
+                           <string value="title"></string>
+                           <list>
+                            <string value="Title"></string>
+                            <int value="0"></int>
+                            <int value="0"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="category"></string>
+                           <list>
+                            <string value="Category"></string>
+                            <int value="0"></int>
+                            <int value="1"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="css-class"></string>
+                           <list>
+                            <string value="CSS class"></string>
+                            <int value="0"></int>
+                            <int value="2"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="icon"></string>
+                           <list>
+                            <string value="Icon"></string>
+                            <int value="0"></int>
+                            <int value="3"></int>
+                           </list>
+                          </tuple>
+                         </list>
+                         <string role="key" value="_author"></string>
+                         <string value=""></string>
+                         <string role="key" value="_iDeviceDir"></string>
+                         <string value="text"></string>
+                         <string role="key" value="_purpose"></string>
+                         <string value=""></string>
+                         <string role="key" value="_tip"></string>
+                         <string value=""></string>
+                         <string role="key" value="_typeName"></string>
+                         <unicode value="Text"></unicode>
+                         <string role="key" value="_valid"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="class_"></string>
+                         <unicode value="text"></unicode>
+                         <string role="key" value="edit"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="emphasis"></string>
+                         <int value="1"></int>
+                         <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+                         <int value="1"></int>
+                         <string role="key" value="fields"></string>
+                         <list>
+                          <reference key="48"></reference>
+                         </list>
+                         <string role="key" value="icon"></string>
+                         <unicode value=""></unicode>
+                         <string role="key" value="id"></string>
+                         <unicode value="18"></unicode>
+                         <string role="key" value="ideviceCategory"></string>
+                         <unicode value="Text and Tasks"></unicode>
+                         <string role="key" value="lastIdevice"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="nextFieldId"></string>
+                         <int value="3"></int>
+                         <string role="key" value="originalicon"></string>
+                         <string value=""></string>
+                         <string role="key" value="parentNode"></string>
+                         <reference key="49"></reference>
+                         <string role="key" value="systemResources"></string>
+                         <list></list>
+                         <string role="key" value="undo"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="userResources"></string>
+                         <list></list>
+                         <string role="key" value="version"></string>
+                         <int value="0"></int>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="anchor_names"></string>
+                       <list>
+                        <unicode value="actActor"></unicode>
+                       </list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary>
+                        <unicode role="key" value="actActor"></unicode>
+                        <list>
+                         <reference key="47"></reference>
+                        </list>
+                       </dictionary>
+                       <string role="key" value="content_w_resourcePaths"></string>
+                       <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;a name=&quot;actActor&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Este método es el que incluye las instrucciones para que el personaje se comporte como queramos. Por ejemplo, que gire, que se mueva, que vaya rotando, que rebote cuando toque con un borde,... El procedimiento se llama automáticamente cuando se presionan los botones &lt;em&gt;Act &lt;/em&gt;o &lt;em&gt;Run&lt;/em&gt;. La diferencia entre uno y otro es que con &lt;em&gt;Act &lt;/em&gt;las instrucciones se ejecutan solo una vez, mientras que con&lt;em&gt; Run &lt;/em&gt;se ejecutarán como si estuvieran en un bucle&lt;/p&gt;&lt;/div&gt;"></unicode>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                       <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                       <int value="3"></int>
+                       <string role="key" value="htmlTag"></string>
+                       <string value="div"></string>
+                       <string role="key" value="images"></string>
+                       <instance class="exe.engine.galleryidevice.GalleryImages">
+                        <dictionary>
+                         <string role="key" value=".listitems"></string>
+                         <list></list>
+                         <string role="key" value="idevice"></string>
+                         <reference key="48"></reference>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="intlinks_to_anchors"></string>
+                       <dictionary></dictionary>
+                       <string role="key" value="nextImageId"></string>
+                       <int value="0"></int>
+                       <string role="key" value="parentNode"></string>
+                       <reference key="49"></reference>
+                      </dictionary>
+                     </instance>
+                     <unicode role="key" value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#constructorActor"></unicode>
+                     <instance class="exe.engine.field.TextAreaField" reference="50">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <unicode value="128_2"></unicode>
+                       <string role="key" value="_idevice"></string>
+                       <instance class="exe.engine.jsidevice.JsIdevice" reference="58">
+                        <dictionary>
+                         <string role="key" value="_title"></string>
+                         <unicode value="Constructor: public Actor()"></unicode>
+                         <string role="key" value="_attributes"></string>
+                         <list>
+                          <tuple>
+                           <string value="title"></string>
+                           <list>
+                            <string value="Title"></string>
+                            <int value="0"></int>
+                            <int value="0"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="category"></string>
+                           <list>
+                            <string value="Category"></string>
+                            <int value="0"></int>
+                            <int value="1"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="css-class"></string>
+                           <list>
+                            <string value="CSS class"></string>
+                            <int value="0"></int>
+                            <int value="2"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="icon"></string>
+                           <list>
+                            <string value="Icon"></string>
+                            <int value="0"></int>
+                            <int value="3"></int>
+                           </list>
+                          </tuple>
+                         </list>
+                         <string role="key" value="_author"></string>
+                         <string value=""></string>
+                         <string role="key" value="_iDeviceDir"></string>
+                         <string value="text"></string>
+                         <string role="key" value="_purpose"></string>
+                         <string value=""></string>
+                         <string role="key" value="_tip"></string>
+                         <string value=""></string>
+                         <string role="key" value="_typeName"></string>
+                         <unicode value="Text"></unicode>
+                         <string role="key" value="_valid"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="class_"></string>
+                         <unicode value="text"></unicode>
+                         <string role="key" value="edit"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="emphasis"></string>
+                         <int value="1"></int>
+                         <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+                         <int value="1"></int>
+                         <string role="key" value="fields"></string>
+                         <list>
+                          <reference key="50"></reference>
+                         </list>
+                         <string role="key" value="icon"></string>
+                         <unicode value=""></unicode>
+                         <string role="key" value="id"></string>
+                         <unicode value="17"></unicode>
+                         <string role="key" value="ideviceCategory"></string>
+                         <unicode value="Text and Tasks"></unicode>
+                         <string role="key" value="lastIdevice"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="nextFieldId"></string>
+                         <int value="3"></int>
+                         <string role="key" value="originalicon"></string>
+                         <string value=""></string>
+                         <string role="key" value="parentNode"></string>
+                         <reference key="49"></reference>
+                         <string role="key" value="systemResources"></string>
+                         <list></list>
+                         <string role="key" value="undo"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="userResources"></string>
+                         <list></list>
+                         <string role="key" value="version"></string>
+                         <int value="0"></int>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="anchor_names"></string>
+                       <list>
+                        <unicode value="constructorActor"></unicode>
+                       </list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary>
+                        <unicode role="key" value="constructorActor"></unicode>
+                        <list>
+                         <reference key="47"></reference>
+                        </list>
+                       </dictionary>
+                       <string role="key" value="content_w_resourcePaths"></string>
+                       <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;a name=&quot;constructorActor&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Como ya sabemos, el constructor de una clase permite inicializar todos sus campos cuando lo creamos. En este método habrá que incluir las instrucciones que necesitemos para inicializar el objeto&lt;/p&gt;&lt;/div&gt;"></unicode>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                       <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                       <int value="3"></int>
+                       <string role="key" value="htmlTag"></string>
+                       <string value="div"></string>
+                       <string role="key" value="images"></string>
+                       <instance class="exe.engine.galleryidevice.GalleryImages">
+                        <dictionary>
+                         <string role="key" value=".listitems"></string>
+                         <list></list>
+                         <string role="key" value="idevice"></string>
+                         <reference key="50"></reference>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="intlinks_to_anchors"></string>
+                       <dictionary></dictionary>
+                       <string role="key" value="nextImageId"></string>
+                       <int value="0"></int>
+                       <string role="key" value="parentNode"></string>
+                       <reference key="49"></reference>
+                      </dictionary>
+                     </instance>
+                     <unicode role="key" value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#isAtEdge"></unicode>
+                     <instance class="exe.engine.field.TextAreaField" reference="51">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <unicode value="131_2"></unicode>
+                       <string role="key" value="_idevice"></string>
+                       <instance class="exe.engine.jsidevice.JsIdevice" reference="61">
+                        <dictionary>
+                         <string role="key" value="_title"></string>
+                         <unicode value="public boolean isAtEdge()"></unicode>
+                         <string role="key" value="_attributes"></string>
+                         <list>
+                          <tuple>
+                           <string value="title"></string>
+                           <list>
+                            <string value="Title"></string>
+                            <int value="0"></int>
+                            <int value="0"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="category"></string>
+                           <list>
+                            <string value="Category"></string>
+                            <int value="0"></int>
+                            <int value="1"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="css-class"></string>
+                           <list>
+                            <string value="CSS class"></string>
+                            <int value="0"></int>
+                            <int value="2"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="icon"></string>
+                           <list>
+                            <string value="Icon"></string>
+                            <int value="0"></int>
+                            <int value="3"></int>
+                           </list>
+                          </tuple>
+                         </list>
+                         <string role="key" value="_author"></string>
+                         <string value=""></string>
+                         <string role="key" value="_iDeviceDir"></string>
+                         <string value="text"></string>
+                         <string role="key" value="_purpose"></string>
+                         <string value=""></string>
+                         <string role="key" value="_tip"></string>
+                         <string value=""></string>
+                         <string role="key" value="_typeName"></string>
+                         <unicode value="Text"></unicode>
+                         <string role="key" value="_valid"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="class_"></string>
+                         <unicode value="text"></unicode>
+                         <string role="key" value="edit"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="emphasis"></string>
+                         <int value="1"></int>
+                         <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+                         <int value="1"></int>
+                         <string role="key" value="fields"></string>
+                         <list>
+                          <reference key="51"></reference>
+                         </list>
+                         <string role="key" value="icon"></string>
+                         <unicode value=""></unicode>
+                         <string role="key" value="id"></string>
+                         <unicode value="20"></unicode>
+                         <string role="key" value="ideviceCategory"></string>
+                         <unicode value="Text and Tasks"></unicode>
+                         <string role="key" value="lastIdevice"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="nextFieldId"></string>
+                         <int value="3"></int>
+                         <string role="key" value="originalicon"></string>
+                         <string value=""></string>
+                         <string role="key" value="parentNode"></string>
+                         <reference key="49"></reference>
+                         <string role="key" value="systemResources"></string>
+                         <list></list>
+                         <string role="key" value="undo"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="userResources"></string>
+                         <list></list>
+                         <string role="key" value="version"></string>
+                         <int value="0"></int>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="anchor_names"></string>
+                       <list>
+                        <unicode value="isAtEdge"></unicode>
+                       </list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary>
+                        <unicode role="key" value="isAtEdge"></unicode>
+                        <list>
+                         <reference key="47"></reference>
+                        </list>
+                       </dictionary>
+                       <string role="key" value="content_w_resourcePaths"></string>
+                       <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;a name=&quot;isAtEdge&quot;&gt;&lt;/a&gt;En un juego es fundamental saber cuándo un personaje está tocando el borde del escenario. Para ello, Greenfoot proporciona el método  &lt;code&gt;isAtEdge()&lt;/code&gt;. Esta función devuelve &lt;code&gt;true&lt;/code&gt; si el objeto ha llegado a un borde y &lt;code&gt;false&lt;/code&gt; en caso contrario. Se puede utilizar para implementar, por ejemplo, un giro cuando llegue a un extremo del escenario. &lt;/p&gt;&lt;/div&gt;"></unicode>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                       <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                       <int value="3"></int>
+                       <string role="key" value="htmlTag"></string>
+                       <string value="div"></string>
+                       <string role="key" value="images"></string>
+                       <instance class="exe.engine.galleryidevice.GalleryImages">
+                        <dictionary>
+                         <string role="key" value=".listitems"></string>
+                         <list></list>
+                         <string role="key" value="idevice"></string>
+                         <reference key="51"></reference>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="intlinks_to_anchors"></string>
+                       <dictionary></dictionary>
+                       <string role="key" value="nextImageId"></string>
+                       <int value="0"></int>
+                       <string role="key" value="parentNode"></string>
+                       <reference key="49"></reference>
+                      </dictionary>
+                     </instance>
+                     <unicode role="key" value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#moveActor"></unicode>
+                     <instance class="exe.engine.field.TextAreaField" reference="52">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <unicode value="130_2"></unicode>
+                       <string role="key" value="_idevice"></string>
+                       <instance class="exe.engine.jsidevice.JsIdevice" reference="60">
+                        <dictionary>
+                         <string role="key" value="_title"></string>
+                         <unicode value="public void move (int distance)"></unicode>
+                         <string role="key" value="_attributes"></string>
+                         <list>
+                          <tuple>
+                           <string value="title"></string>
+                           <list>
+                            <string value="Title"></string>
+                            <int value="0"></int>
+                            <int value="0"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="category"></string>
+                           <list>
+                            <string value="Category"></string>
+                            <int value="0"></int>
+                            <int value="1"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="css-class"></string>
+                           <list>
+                            <string value="CSS class"></string>
+                            <int value="0"></int>
+                            <int value="2"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="icon"></string>
+                           <list>
+                            <string value="Icon"></string>
+                            <int value="0"></int>
+                            <int value="3"></int>
+                           </list>
+                          </tuple>
+                         </list>
+                         <string role="key" value="_author"></string>
+                         <string value=""></string>
+                         <string role="key" value="_iDeviceDir"></string>
+                         <string value="text"></string>
+                         <string role="key" value="_purpose"></string>
+                         <string value=""></string>
+                         <string role="key" value="_tip"></string>
+                         <string value=""></string>
+                         <string role="key" value="_typeName"></string>
+                         <unicode value="Text"></unicode>
+                         <string role="key" value="_valid"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="class_"></string>
+                         <unicode value="text"></unicode>
+                         <string role="key" value="edit"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="emphasis"></string>
+                         <int value="1"></int>
+                         <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+                         <int value="1"></int>
+                         <string role="key" value="fields"></string>
+                         <list>
+                          <reference key="52"></reference>
+                         </list>
+                         <string role="key" value="icon"></string>
+                         <unicode value=""></unicode>
+                         <string role="key" value="id"></string>
+                         <unicode value="19"></unicode>
+                         <string role="key" value="ideviceCategory"></string>
+                         <unicode value="Text and Tasks"></unicode>
+                         <string role="key" value="lastIdevice"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="nextFieldId"></string>
+                         <int value="3"></int>
+                         <string role="key" value="originalicon"></string>
+                         <string value=""></string>
+                         <string role="key" value="parentNode"></string>
+                         <reference key="49"></reference>
+                         <string role="key" value="systemResources"></string>
+                         <list></list>
+                         <string role="key" value="undo"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="userResources"></string>
+                         <list></list>
+                         <string role="key" value="version"></string>
+                         <int value="0"></int>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="anchor_names"></string>
+                       <list>
+                        <unicode value="moveActor"></unicode>
+                       </list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary>
+                        <unicode role="key" value="moveActor"></unicode>
+                        <list>
+                         <reference key="47"></reference>
+                        </list>
+                       </dictionary>
+                       <string role="key" value="content_w_resourcePaths"></string>
+                       <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;a name=&quot;moveActor&quot;&gt;&lt;/a&gt; Con este método podemos el actor se moverá la distancia (un número de celdas) que indique el parámetro. Por ejemplo, si usamos &lt;code&gt;move(2)&lt;/code&gt; se moverá dos celdas. Si el valor de la distancia es negativo, el movimiento será hacia atrás.&lt;/p&gt;
+&lt;p&gt;La dirección del movimiento será la que tenga actualmente el personaje (horizontal por defecto). Para modificar dicha dirección se puede usar el método &lt;code&gt;setRotation(int)&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                       <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                       <int value="3"></int>
+                       <string role="key" value="htmlTag"></string>
+                       <string value="div"></string>
+                       <string role="key" value="images"></string>
+                       <instance class="exe.engine.galleryidevice.GalleryImages">
+                        <dictionary>
+                         <string role="key" value=".listitems"></string>
+                         <list></list>
+                         <string role="key" value="idevice"></string>
+                         <reference key="52"></reference>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="intlinks_to_anchors"></string>
+                       <dictionary></dictionary>
+                       <string role="key" value="nextImageId"></string>
+                       <int value="0"></int>
+                       <string role="key" value="parentNode"></string>
+                       <reference key="49"></reference>
+                      </dictionary>
+                     </instance>
+                     <unicode role="key" value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#setImageActor"></unicode>
+                     <instance class="exe.engine.field.TextAreaField" reference="53">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <unicode value="127_2"></unicode>
+                       <string role="key" value="_idevice"></string>
+                       <instance class="exe.engine.jsidevice.JsIdevice" reference="54">
+                        <dictionary>
+                         <string role="key" value="_title"></string>
+                         <unicode value="void setImage"></unicode>
+                         <string role="key" value="_attributes"></string>
+                         <list>
+                          <tuple>
+                           <string value="title"></string>
+                           <list>
+                            <string value="Title"></string>
+                            <int value="0"></int>
+                            <int value="0"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="category"></string>
+                           <list>
+                            <string value="Category"></string>
+                            <int value="0"></int>
+                            <int value="1"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="css-class"></string>
+                           <list>
+                            <string value="CSS class"></string>
+                            <int value="0"></int>
+                            <int value="2"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="icon"></string>
+                           <list>
+                            <string value="Icon"></string>
+                            <int value="0"></int>
+                            <int value="3"></int>
+                           </list>
+                          </tuple>
+                         </list>
+                         <string role="key" value="_author"></string>
+                         <string value=""></string>
+                         <string role="key" value="_iDeviceDir"></string>
+                         <string value="text"></string>
+                         <string role="key" value="_purpose"></string>
+                         <string value=""></string>
+                         <string role="key" value="_tip"></string>
+                         <string value=""></string>
+                         <string role="key" value="_typeName"></string>
+                         <unicode value="Text"></unicode>
+                         <string role="key" value="_valid"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="class_"></string>
+                         <unicode value="text"></unicode>
+                         <string role="key" value="edit"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="emphasis"></string>
+                         <int value="1"></int>
+                         <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+                         <int value="1"></int>
+                         <string role="key" value="fields"></string>
+                         <list>
+                          <reference key="53"></reference>
+                         </list>
+                         <string role="key" value="icon"></string>
+                         <unicode value=""></unicode>
+                         <string role="key" value="id"></string>
+                         <unicode value="16"></unicode>
+                         <string role="key" value="ideviceCategory"></string>
+                         <unicode value="Text and Tasks"></unicode>
+                         <string role="key" value="lastIdevice"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="nextFieldId"></string>
+                         <int value="3"></int>
+                         <string role="key" value="originalicon"></string>
+                         <string value=""></string>
+                         <string role="key" value="parentNode"></string>
+                         <reference key="49"></reference>
+                         <string role="key" value="systemResources"></string>
+                         <list></list>
+                         <string role="key" value="undo"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="userResources"></string>
+                         <list>
+                          <instance class="exe.engine.resource.Resource" reference="55">
+                           <dictionary>
+                            <string role="key" value="_idevice"></string>
+                            <reference key="54"></reference>
+                            <string role="key" value="_package"></string>
+                            <reference key="10"></reference>
+                            <string role="key" value="_storageName"></string>
+                            <string value="setImageActor.JPG"></string>
+                            <string role="key" value="_userName"></string>
+                            <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\setImageActor.JPG"></string>
+                            <string role="key" value="checksum"></string>
+                            <string value="177ca0ed6cc4dad252b9c64890a5d119"></string>
+                            <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                            <int value="2"></int>
+                            <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                            <int value="2"></int>
+                            <string role="key" value="warningMsg"></string>
+                            <string value=""></string>
+                           </dictionary>
+                          </instance>
+                         </list>
+                         <string role="key" value="version"></string>
+                         <int value="0"></int>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="anchor_names"></string>
+                       <list>
+                        <unicode value="setImageActor"></unicode>
+                       </list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary>
+                        <unicode role="key" value="setImageActor"></unicode>
+                        <list>
+                         <reference key="47"></reference>
+                        </list>
+                       </dictionary>
+                       <string role="key" value="content_w_resourcePaths"></string>
+                       <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;a name=&quot;setImageActor&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Este procedimiento permite cambiar la imagen de un actor. Existen dos opciones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A partir del nombre de un archivo de imagen (el fichero deberá estar en la carpeta &lt;em&gt;images&lt;/em&gt; del proyecto)&lt;/li&gt;
+&lt;li&gt;Usando un objeto de tipo &lt;a href=&quot;https://www.greenfoot.org/files/javadoc/greenfoot/GreenfootImage.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GreeenfootImage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Por ejemplo, si tenemos el archivo fotoActor.jpg y queremos que sea la imagen del actor, tendríamos que incluir el siguiente código: &lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;resources/setImageActor.JPG&quot; alt=&quot;Código de ejemplo de setImage para la clase Actor&quot; width=&quot;236&quot; height=&quot;45&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;La imagen se puede cambiar al principio (en el constructor) o en cualquier otro método. Por ejemplo, cuando se detecte una colisión con un objeto podremos modificar la foto del actor y actualizarla a otra distinta.&lt;/p&gt;&lt;/div&gt;"></unicode>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                       <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                       <int value="3"></int>
+                       <string role="key" value="htmlTag"></string>
+                       <string value="div"></string>
+                       <string role="key" value="images"></string>
+                       <instance class="exe.engine.galleryidevice.GalleryImages">
+                        <dictionary>
+                         <string role="key" value=".listitems"></string>
+                         <list>
+                          <instance class="exe.engine.galleryidevice.GalleryImage">
+                           <dictionary>
+                            <string role="key" value="_caption"></string>
+                            <instance class="exe.engine.field.TextField">
+                             <dictionary>
+                              <string role="key" value="_id"></string>
+                              <int value="291"></int>
+                              <string role="key" value="_idevice"></string>
+                              <none></none>
+                              <string role="key" value="_instruc"></string>
+                              <string value=""></string>
+                              <string role="key" value="_name"></string>
+                              <string value=""></string>
+                              <string role="key" value="content"></string>
+                              <string value=""></string>
+                              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                              <int value="4"></int>
+                             </dictionary>
+                            </instance>
+                            <string role="key" value="_id"></string>
+                            <unicode value="16_127_2.1"></unicode>
+                            <string role="key" value="_imageResource"></string>
+                            <reference key="55"></reference>
+                            <string role="key" value="_parent"></string>
+                            <reference key="53"></reference>
+                            <string role="key" value="_thumbnailResource"></string>
+                            <none></none>
+                            <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                            <int value="3"></int>
+                            <string role="key" value="makeThumbnail"></string>
+                            <bool value="0"></bool>
+                           </dictionary>
+                          </instance>
+                         </list>
+                         <string role="key" value="idevice"></string>
+                         <reference key="53"></reference>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="intlinks_to_anchors"></string>
+                       <dictionary></dictionary>
+                       <string role="key" value="nextImageId"></string>
+                       <int value="2"></int>
+                       <string role="key" value="parentNode"></string>
+                       <reference key="49"></reference>
+                      </dictionary>
+                     </instance>
+                     <unicode role="key" value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#turnActor"></unicode>
+                     <instance class="exe.engine.field.TextAreaField" reference="56">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <unicode value="132_2"></unicode>
+                       <string role="key" value="_idevice"></string>
+                       <instance class="exe.engine.jsidevice.JsIdevice" reference="62">
+                        <dictionary>
+                         <string role="key" value="_title"></string>
+                         <unicode value="public void turn(int amount)"></unicode>
+                         <string role="key" value="_attributes"></string>
+                         <list>
+                          <tuple>
+                           <string value="title"></string>
+                           <list>
+                            <string value="Title"></string>
+                            <int value="0"></int>
+                            <int value="0"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="category"></string>
+                           <list>
+                            <string value="Category"></string>
+                            <int value="0"></int>
+                            <int value="1"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="css-class"></string>
+                           <list>
+                            <string value="CSS class"></string>
+                            <int value="0"></int>
+                            <int value="2"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="icon"></string>
+                           <list>
+                            <string value="Icon"></string>
+                            <int value="0"></int>
+                            <int value="3"></int>
+                           </list>
+                          </tuple>
+                         </list>
+                         <string role="key" value="_author"></string>
+                         <string value=""></string>
+                         <string role="key" value="_iDeviceDir"></string>
+                         <string value="text"></string>
+                         <string role="key" value="_purpose"></string>
+                         <string value=""></string>
+                         <string role="key" value="_tip"></string>
+                         <string value=""></string>
+                         <string role="key" value="_typeName"></string>
+                         <unicode value="Text"></unicode>
+                         <string role="key" value="_valid"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="class_"></string>
+                         <unicode value="text"></unicode>
+                         <string role="key" value="edit"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="emphasis"></string>
+                         <int value="1"></int>
+                         <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+                         <int value="1"></int>
+                         <string role="key" value="fields"></string>
+                         <list>
+                          <reference key="56"></reference>
+                         </list>
+                         <string role="key" value="icon"></string>
+                         <unicode value=""></unicode>
+                         <string role="key" value="id"></string>
+                         <unicode value="21"></unicode>
+                         <string role="key" value="ideviceCategory"></string>
+                         <unicode value="Text and Tasks"></unicode>
+                         <string role="key" value="lastIdevice"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="nextFieldId"></string>
+                         <int value="3"></int>
+                         <string role="key" value="originalicon"></string>
+                         <string value=""></string>
+                         <string role="key" value="parentNode"></string>
+                         <reference key="49"></reference>
+                         <string role="key" value="systemResources"></string>
+                         <list></list>
+                         <string role="key" value="undo"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="userResources"></string>
+                         <list></list>
+                         <string role="key" value="version"></string>
+                         <int value="0"></int>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="anchor_names"></string>
+                       <list>
+                        <unicode value="turnActor"></unicode>
+                       </list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary>
+                        <unicode role="key" value="turnActor"></unicode>
+                        <list>
+                         <reference key="47"></reference>
+                        </list>
+                       </dictionary>
+                       <string role="key" value="content_w_resourcePaths"></string>
+                       <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;a name=&quot;turnActor&quot;&gt;&lt;/a&gt;Este procedimiento hace que el personaje gire. En concreto, se girará la cantidad de grados que se indique como argumento. Por ejemplo, si se ejecuta &lt;code&gt;turn(90)&lt;/code&gt;, el personaje girará 90º. Si el número de grados es positivo el giro será en sentido horario (el de las agujas del reloj). Si el parámetro es negativo, el giro será antihorario (sentido contrario de las agujas del reloj)&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                       <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                       <int value="3"></int>
+                       <string role="key" value="htmlTag"></string>
+                       <string value="div"></string>
+                       <string role="key" value="images"></string>
+                       <instance class="exe.engine.galleryidevice.GalleryImages">
+                        <dictionary>
+                         <string role="key" value=".listitems"></string>
+                         <list></list>
+                         <string role="key" value="idevice"></string>
+                         <reference key="56"></reference>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="intlinks_to_anchors"></string>
+                       <dictionary></dictionary>
+                       <string role="key" value="nextImageId"></string>
+                       <int value="0"></int>
+                       <string role="key" value="parentNode"></string>
+                       <reference key="49"></reference>
+                      </dictionary>
+                     </instance>
+                     <unicode role="key" value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29#turnTowardsActor"></unicode>
+                     <instance class="exe.engine.field.TextAreaField" reference="57">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <unicode value="133_2"></unicode>
+                       <string role="key" value="_idevice"></string>
+                       <instance class="exe.engine.jsidevice.JsIdevice" reference="63">
+                        <dictionary>
+                         <string role="key" value="_title"></string>
+                         <unicode value="public void turnTowards (int x, int y)"></unicode>
+                         <string role="key" value="_attributes"></string>
+                         <list>
+                          <tuple>
+                           <string value="title"></string>
+                           <list>
+                            <string value="Title"></string>
+                            <int value="0"></int>
+                            <int value="0"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="category"></string>
+                           <list>
+                            <string value="Category"></string>
+                            <int value="0"></int>
+                            <int value="1"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="css-class"></string>
+                           <list>
+                            <string value="CSS class"></string>
+                            <int value="0"></int>
+                            <int value="2"></int>
+                           </list>
+                          </tuple>
+                          <tuple>
+                           <string value="icon"></string>
+                           <list>
+                            <string value="Icon"></string>
+                            <int value="0"></int>
+                            <int value="3"></int>
+                           </list>
+                          </tuple>
+                         </list>
+                         <string role="key" value="_author"></string>
+                         <string value=""></string>
+                         <string role="key" value="_iDeviceDir"></string>
+                         <string value="text"></string>
+                         <string role="key" value="_purpose"></string>
+                         <string value=""></string>
+                         <string role="key" value="_tip"></string>
+                         <string value=""></string>
+                         <string role="key" value="_typeName"></string>
+                         <unicode value="Text"></unicode>
+                         <string role="key" value="_valid"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="class_"></string>
+                         <unicode value="text"></unicode>
+                         <string role="key" value="edit"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="emphasis"></string>
+                         <int value="1"></int>
+                         <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+                         <int value="1"></int>
+                         <string role="key" value="fields"></string>
+                         <list>
+                          <reference key="57"></reference>
+                         </list>
+                         <string role="key" value="icon"></string>
+                         <unicode value=""></unicode>
+                         <string role="key" value="id"></string>
+                         <unicode value="22"></unicode>
+                         <string role="key" value="ideviceCategory"></string>
+                         <unicode value="Text and Tasks"></unicode>
+                         <string role="key" value="lastIdevice"></string>
+                         <bool value="0"></bool>
+                         <string role="key" value="nextFieldId"></string>
+                         <int value="3"></int>
+                         <string role="key" value="originalicon"></string>
+                         <string value=""></string>
+                         <string role="key" value="parentNode"></string>
+                         <reference key="49"></reference>
+                         <string role="key" value="systemResources"></string>
+                         <list></list>
+                         <string role="key" value="undo"></string>
+                         <bool value="1"></bool>
+                         <string role="key" value="userResources"></string>
+                         <list></list>
+                         <string role="key" value="version"></string>
+                         <int value="0"></int>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="anchor_names"></string>
+                       <list>
+                        <unicode value="turnTowardsActor"></unicode>
+                       </list>
+                       <string role="key" value="anchors_linked_from_fields"></string>
+                       <dictionary>
+                        <unicode role="key" value="turnTowardsActor"></unicode>
+                        <list>
+                         <reference key="47"></reference>
+                        </list>
+                       </dictionary>
+                       <string role="key" value="content_w_resourcePaths"></string>
+                       <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;a name=&quot;turnTowardsActor&quot;&gt;&lt;/a&gt;Además de poder girar el personaje un número determinado de grados, también es posible hacer que el actor gire en una determinada dirección. Para ello, usaremos el método &lt;code&gt;turnTowards (int x, int y)&lt;/code&gt;. Cuando se llama a este procedimiento, el personaje girará en la dirección (x,y). Por ejemplo, si se ejecuta  &lt;code&gt;turnTowards (20,10)&lt;/code&gt;, el personaje girará hacia la posición de la celda (20,10)&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                       <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                       <int value="3"></int>
+                       <string role="key" value="htmlTag"></string>
+                       <string value="div"></string>
+                       <string role="key" value="images"></string>
+                       <instance class="exe.engine.galleryidevice.GalleryImages">
+                        <dictionary>
+                         <string role="key" value=".listitems"></string>
+                         <list></list>
+                         <string role="key" value="idevice"></string>
+                         <reference key="57"></reference>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="intlinks_to_anchors"></string>
+                       <dictionary></dictionary>
+                       <string role="key" value="nextImageId"></string>
+                       <int value="0"></int>
+                       <string role="key" value="parentNode"></string>
+                       <reference key="49"></reference>
+                      </dictionary>
+                     </instance>
+                    </dictionary>
+                    <string role="key" value="nextImageId"></string>
+                    <int value="0"></int>
+                    <string role="key" value="parentNode"></string>
+                    <reference key="49"></reference>
+                   </dictionary>
+                  </instance>
+                 </list>
+                 <string role="key" value="icon"></string>
+                 <unicode value=""></unicode>
+                 <string role="key" value="id"></string>
+                 <unicode value="15"></unicode>
+                 <string role="key" value="ideviceCategory"></string>
+                 <unicode value="Text and Tasks"></unicode>
+                 <string role="key" value="lastIdevice"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="nextFieldId"></string>
+                 <int value="3"></int>
+                 <string role="key" value="originalicon"></string>
+                 <string value=""></string>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="49"></reference>
+                 <string role="key" value="systemResources"></string>
+                 <list></list>
+                 <string role="key" value="undo"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="userResources"></string>
+                 <list></list>
+                 <string role="key" value="version"></string>
+                 <int value="0"></int>
+                </dictionary>
+               </instance>
+               <reference key="58"></reference>
+               <reference key="54"></reference>
+               <reference key="59"></reference>
+               <reference key="60"></reference>
+               <reference key="61"></reference>
+               <reference key="62"></reference>
+               <reference key="63"></reference>
+               <instance class="exe.engine.galleryidevice.GalleryIdevice" reference="64">
+                <dictionary>
+                 <string role="key" value="_title"></string>
+                 <unicode value="Códigos de ejemplo"></unicode>
+                 <string role="key" value="_addImageInstr"></string>
+                 <unicode value="Click on the Add images button to select an image file. The image will appear below where you will be able to label it. It's always good practice to put the file size in the label."></unicode>
+                 <string role="key" value="_author"></string>
+                 <unicode value="eXe Project"></unicode>
+                 <string role="key" value="_htmlResource"></string>
+                 <none></none>
+                 <string role="key" value="_purpose"></string>
+                 <unicode value="&lt;p&gt;Where you have a number of images that relate 
+to each other or to a particular learning exercise you may wish to display 
+these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
+                 <string role="key" value="_tip"></string>
+                 <unicode value="Use this Idevice if you have a lot of images to show."></unicode>
+                 <string role="key" value="_titleInstruc"></string>
+                 <unicode value="Enter a title for the gallery"></unicode>
+                 <string role="key" value="_typeName"></string>
+                 <unicode value="Image Gallery"></unicode>
+                 <string role="key" value="currentImageIndex"></string>
+                 <int value="0"></int>
+                 <string role="key" value="edit"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="emphasis"></string>
+                 <int value="1"></int>
+                 <string role="key" value="exe.engine.galleryidevice.GalleryIdevice.persistenceVersion"></string>
+                 <int value="8"></int>
+                 <string role="key" value="icon"></string>
+                 <string value="gallery"></string>
+                 <string role="key" value="id"></string>
+                 <unicode value="25"></unicode>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="276"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <unicode value=""></unicode>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="25.1"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="65">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="64"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="10"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="EjemploActActor1.JPG"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\EjemploActActor1.JPG"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="c45458155202aae823a169f9135a8484"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="64"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="66">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="64"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="10"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="EjemploActActor1Thumbnail.png"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\EjemploActActor1Thumbnail.png"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="40aac67126f7376e2d12992d206bc240"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="1"></bool>
+                      <string role="key" value="size"></string>
+                      <tuple>
+                       <int value="760"></int>
+                       <int value="187"></int>
+                      </tuple>
+                     </dictionary>
+                    </instance>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="277"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <unicode value=""></unicode>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="25.2"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="67">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="64"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="10"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="EjemploActActor2.JPG"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\EjemploActActor2.JPG"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="21e8684f9d5dc7152efb1a620616411f"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="64"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="68">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="64"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="10"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="EjemploActActor2Thumbnail.png"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\EjemploActActor2Thumbnail.png"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="67df123e86871a320f7954eebdc6761a"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="1"></bool>
+                      <string role="key" value="size"></string>
+                      <tuple>
+                       <int value="823"></int>
+                       <int value="247"></int>
+                      </tuple>
+                     </dictionary>
+                    </instance>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="278"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <unicode value=""></unicode>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="25.3"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="69">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="64"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="10"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="EjemploActActor3.JPG"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\EjemploActActor3.JPG"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="5e57922f0d0752c11b897ed783207fa3"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="64"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="70">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="64"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="10"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="EjemploActActor3Thumbnail.png"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpjk42xs\\EjemploActActor3Thumbnail.png"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="d0df2e68e1d7d4c384cb397489a49a4f"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="1"></bool>
+                      <string role="key" value="size"></string>
+                      <tuple>
+                       <int value="1118"></int>
+                       <int value="289"></int>
+                      </tuple>
+                     </dictionary>
+                    </instance>
+                   </list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="64"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="lastIdevice"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="4"></int>
+                 <string role="key" value="originalicon"></string>
+                 <string value="gallery"></string>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="49"></reference>
+                 <string role="key" value="systemResources"></string>
+                 <list></list>
+                 <string role="key" value="undo"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="userResources"></string>
+                 <list>
+                  <reference key="65"></reference>
+                  <reference key="66"></reference>
+                  <reference key="67"></reference>
+                  <reference key="68"></reference>
+                  <reference key="69"></reference>
+                  <reference key="70"></reference>
+                 </list>
+                 <string role="key" value="version"></string>
+                 <int value="0"></int>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.jsidevice.JsIdevice" reference="71">
+                <dictionary>
+                 <string role="key" value="_title"></string>
+                 <unicode value="Tarea 3"></unicode>
+                 <string role="key" value="_attributes"></string>
+                 <list>
+                  <tuple>
+                   <string value="title"></string>
+                   <list>
+                    <string value="Title"></string>
+                    <int value="0"></int>
+                    <int value="0"></int>
+                   </list>
+                  </tuple>
+                  <tuple>
+                   <string value="category"></string>
+                   <list>
+                    <string value="Category"></string>
+                    <int value="0"></int>
+                    <int value="1"></int>
+                   </list>
+                  </tuple>
+                  <tuple>
+                   <string value="css-class"></string>
+                   <list>
+                    <string value="CSS class"></string>
+                    <int value="0"></int>
+                    <int value="2"></int>
+                   </list>
+                  </tuple>
+                  <tuple>
+                   <string value="icon"></string>
+                   <list>
+                    <string value="Icon"></string>
+                    <int value="0"></int>
+                    <int value="3"></int>
+                   </list>
+                  </tuple>
+                 </list>
+                 <string role="key" value="_author"></string>
+                 <string value=""></string>
+                 <string role="key" value="_iDeviceDir"></string>
+                 <string value="pbl-tools"></string>
+                 <string role="key" value="_purpose"></string>
+                 <string value=""></string>
+                 <string role="key" value="_tip"></string>
+                 <string value=""></string>
+                 <string role="key" value="_typeName"></string>
+                 <unicode value="Task"></unicode>
+                 <string role="key" value="_valid"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="class_"></string>
+                 <unicode value="pbl"></unicode>
+                 <string role="key" value="edit"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="emphasis"></string>
+                 <int value="1"></int>
+                 <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+                 <int value="1"></int>
+                 <string role="key" value="fields"></string>
+                 <list>
+                  <instance class="exe.engine.field.TextAreaField" reference="72">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <unicode value="121_2"></unicode>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="71"></reference>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="anchor_names"></string>
+                    <list></list>
+                    <string role="key" value="content_w_resourcePaths"></string>
+                    <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;En esta tarea crearemos los personajes del juego y definiremos cómo se van a mover. &lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Tendremos que:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Crear los personajes que necesitemos para el juego (una clase para cada uno de ellos)&lt;/li&gt;
+&lt;li&gt;De cada personaje se determinará:
+&lt;ul&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Su imagen (o imágenes, si queremos que cambie conforme avance el juego). Deberán ser de elaboración propia o libres de derechos&lt;/li&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;El movimiento que va a realizar&lt;/li&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Cómo actuará cuando toque un borde del escenario&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Qué se entrega en esta fase&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Url del repositorio donde estarán todos los archivos del proyecto de greenfoot&lt;/li&gt;
+&lt;li&gt;Documento explicando brevemente cada personaje, incluyendo:
+&lt;ul&gt;
+&lt;li&gt;Procedencia de las imágenes utilizadas (elaboración propia o url donde se han obtenido)&lt;/li&gt;
+&lt;li&gt;Descripción del movimiento y del modo de actuación cuando toque un borde del escenario&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;"></unicode>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                    <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                    <int value="3"></int>
+                    <string role="key" value="htmlTag"></string>
+                    <string value="div"></string>
+                    <string role="key" value="images"></string>
+                    <instance class="exe.engine.galleryidevice.GalleryImages">
+                     <dictionary>
+                      <string role="key" value=".listitems"></string>
+                      <list></list>
+                      <string role="key" value="idevice"></string>
+                      <reference key="72"></reference>
+                     </dictionary>
+                    </instance>
+                    <string role="key" value="intlinks_to_anchors"></string>
+                    <dictionary></dictionary>
+                    <string role="key" value="nextImageId"></string>
+                    <int value="0"></int>
+                    <string role="key" value="parentNode"></string>
+                    <none></none>
+                   </dictionary>
+                  </instance>
+                 </list>
+                 <string role="key" value="icon"></string>
+                 <unicode value="activity"></unicode>
+                 <string role="key" value="id"></string>
+                 <unicode value="26"></unicode>
+                 <string role="key" value="ideviceCategory"></string>
+                 <unicode value="Text and Tasks"></unicode>
+                 <string role="key" value="lastIdevice"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="nextFieldId"></string>
+                 <int value="3"></int>
+                 <string role="key" value="originalicon"></string>
+                 <unicode value="activity"></unicode>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="49"></reference>
+                 <string role="key" value="systemResources"></string>
+                 <list></list>
+                 <string role="key" value="undo"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="userResources"></string>
+                 <list></list>
+                 <string role="key" value="version"></string>
+                 <int value="0"></int>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="_id"></string>
+              <unicode value="4"></unicode>
+              <string role="key" value="_package"></string>
+              <reference key="10"></reference>
+              <string role="key" value="anchor_fields"></string>
+              <list>
+               <reference key="53"></reference>
+               <reference key="50"></reference>
+               <reference key="48"></reference>
+               <reference key="52"></reference>
+               <reference key="51"></reference>
+               <reference key="56"></reference>
+               <reference key="57"></reference>
+              </list>
+              <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exportType"></string>
+              <string value="website"></string>
+              <string role="key" value="last_full_node_path"></string>
+              <string value="exe-node:Proyecto%20programaci%C3%B3n%20y%20computaci%C3%B3n%20-%20Juego%20Space%20Invaders%20usando%20Greenfoot:3%C2%AA%20fase.%20Personajes%20%28elecci%C3%B3n%20e%20implementaci%C3%B3n%20del%20comportamiento%20de%20los%20personajes%29"></string>
+              <string role="key" value="parent"></string>
+              <reference key="25"></reference>
               <string role="key" value="top_anchors_linked_from_fields"></string>
               <list>
                <reference key="2"></reference>
@@ -2776,7 +4425,7 @@
            <string role="key" value="nextImageId"></string>
            <int value="0"></int>
            <string role="key" value="parentNode"></string>
-           <none></none>
+           <reference key="25"></reference>
           </dictionary>
          </instance>
         </list>
@@ -2793,7 +4442,7 @@
         <string role="key" value="originalicon"></string>
         <string value=""></string>
         <string role="key" value="parentNode"></string>
-        <reference key="26"></reference>
+        <reference key="25"></reference>
         <string role="key" value="systemResources"></string>
         <list></list>
         <string role="key" value="undo"></string>
@@ -2823,18 +4472,21 @@
      <list></list>
      <string role="key" value="children"></string>
      <list>
-      <reference key="21"></reference>
+      <reference key="26"></reference>
       <reference key="32"></reference>
+      <reference key="49"></reference>
       <reference key="8"></reference>
      </list>
     </dictionary>
    </instance>
    <unicode role="key" value="1"></unicode>
-   <reference key="21"></reference>
+   <reference key="26"></reference>
    <unicode role="key" value="2"></unicode>
    <reference key="8"></reference>
    <unicode role="key" value="3"></unicode>
    <reference key="32"></reference>
+   <unicode role="key" value="4"></unicode>
+   <reference key="49"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -2847,21 +4499,29 @@
    <reference key="17"></reference>
    <reference key="7"></reference>
    <reference key="14"></reference>
-   <reference key="22"></reference>
+   <reference key="21"></reference>
    <reference key="40"></reference>
    <reference key="31"></reference>
    <reference key="36"></reference>
+   <reference key="53"></reference>
+   <reference key="50"></reference>
+   <reference key="48"></reference>
+   <reference key="52"></reference>
+   <reference key="51"></reference>
+   <reference key="56"></reference>
+   <reference key="57"></reference>
   </list>
   <string role="key" value="anchor_nodes"></string>
   <list>
-   <reference key="21"></reference>
+   <reference key="26"></reference>
    <reference key="8"></reference>
    <reference key="32"></reference>
+   <reference key="49"></reference>
   </list>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="32"></reference>
+  <reference key="49"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -4100,44 +5760,72 @@
   <string role="key" value="mxmlwidth"></string>
   <string value=""></string>
   <string role="key" value="release"></string>
-  <string value="2.8 Portable"></string>
+  <string value="2.8.1"></string>
   <string role="key" value="resources"></string>
   <dictionary>
    <string role="key" value="05af1c3ac54c15d47e18ba5b284bbe46"></string>
    <list>
     <reference key="16"></reference>
    </list>
+   <string role="key" value="177ca0ed6cc4dad252b9c64890a5d119"></string>
+   <list>
+    <reference key="55"></reference>
+   </list>
    <string role="key" value="2055f73ed5bba1104c353171545c65fa"></string>
    <list>
-    <reference key="39"></reference>
+    <reference key="38"></reference>
+   </list>
+   <string role="key" value="21e8684f9d5dc7152efb1a620616411f"></string>
+   <list>
+    <reference key="67"></reference>
    </list>
    <string role="key" value="2346246e89a2773033fec63da436bff2"></string>
    <list>
-    <reference key="25"></reference>
+    <reference key="24"></reference>
    </list>
    <string role="key" value="3f57575bbc7da74e18016ecd11ea2ba2"></string>
    <list>
-    <reference key="20"></reference>
+    <reference key="19"></reference>
+   </list>
+   <string role="key" value="40aac67126f7376e2d12992d206bc240"></string>
+   <list>
+    <reference key="66"></reference>
    </list>
    <string role="key" value="44687d6af5ee0751f3b51b99a9a80921"></string>
    <list>
-    <reference key="34"></reference>
+    <reference key="35"></reference>
    </list>
    <string role="key" value="5aa501a34f74b835a5c6d193cbd85918"></string>
    <list>
-    <reference key="24"></reference>
+    <reference key="23"></reference>
+   </list>
+   <string role="key" value="5e57922f0d0752c11b897ed783207fa3"></string>
+   <list>
+    <reference key="69"></reference>
    </list>
    <string role="key" value="5f90cb786f93ff4fcec27f64386e0323"></string>
    <list>
-    <reference key="11"></reference>
+    <reference key="13"></reference>
+   </list>
+   <string role="key" value="67df123e86871a320f7954eebdc6761a"></string>
+   <list>
+    <reference key="68"></reference>
    </list>
    <string role="key" value="8e5acf3ca43730047e24c9681eea0b52"></string>
    <list>
-    <reference key="19"></reference>
+    <reference key="20"></reference>
+   </list>
+   <string role="key" value="c45458155202aae823a169f9135a8484"></string>
+   <list>
+    <reference key="65"></reference>
    </list>
    <string role="key" value="c55055016bf823d3ea7c93a8bff9e5f7"></string>
    <list>
     <reference key="12"></reference>
+   </list>
+   <string role="key" value="d0df2e68e1d7d4c384cb397489a49a4f"></string>
+   <list>
+    <reference key="70"></reference>
    </list>
    <string role="key" value="d692e41ebca72567cfb64e8d431c019e"></string>
    <list>
@@ -4145,7 +5833,7 @@
    </list>
    <string role="key" value="d7da17b56a1f485f42d21735e21135b6"></string>
    <list>
-    <reference key="35"></reference>
+    <reference key="34"></reference>
    </list>
    <string role="key" value="e385a2e87d33fb276ab792f99d4960f3"></string>
    <list>
@@ -4153,15 +5841,15 @@
    </list>
    <string role="key" value="ecbda0fb280889f085f5666988f086a8"></string>
    <list>
-    <reference key="13"></reference>
+    <reference key="11"></reference>
    </list>
    <string role="key" value="f165ed4fe8828a62b1cb8bce4a5531c7"></string>
    <list>
-    <reference key="38"></reference>
+    <reference key="39"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
-  <reference key="26"></reference>
+  <reference key="25"></reference>
   <string role="key" value="scolinks"></string>
   <bool value="0"></bool>
   <string role="key" value="scowsinglepage"></string>

@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>3ª fase. Personajes (elección e implementación del comportamiento de los personajes) | Proyecto programación y computación - Juego con greenfoot </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Mª Dolores Robles Ortega" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nd/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_lightbox.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Proyecto programación y computación - Juego con greenfoot</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Proyecto programación y computación - Juego Space Invaders usando Greenfoot</a></li>
+   <li><a href="1_fase_eleccin_de_las_herramientas_de_trabajo_del_proyecto.html" class="no-ch">1ª fase. Elección de las herramientas de trabajo del proyecto</a></li>
+   <li><a href="2_fase_creacin_de_los_escenarios.html" class="no-ch">2ª fase. Creación de los escenarios</a></li>
+   <li id="active"><a href="3_fase_personajes_eleccin_e_implementacin_del_comportamiento_de_los_personajes.html" class="active no-ch">3ª fase. Personajes (elección e implementación del comportamiento de los personajes)</a></li>
+   <li><a href="anexo_uso_bsico_de_github.html" class="no-ch">Anexo. Uso básico de github</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="2_fase_creacin_de_los_escenarios.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="anexo_uso_bsico_de_github.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">3ª fase. Personajes (elección e implementación del comportamiento de los personajes)</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id15">
+<div class="iDevice emphasis0" >
+<div id="ta15_126_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;">En Greenfoot todos los personajes heredan de la clase padre Actor, cuya especificación se puede consultar en esta <a href="https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html" target="_blank" rel="noopener">página</a>. A continuación se explicarán algunos de los métodos de esta clase que pueden ser más útiles. Al igual que con la clase World, en este documento no se hace un repaso exhaustivo de todas las funciones, solo se describen algunas de las más significativas.</p>
+<ul>
+<li><a href="3_fase_personajes_eleccin_e_implementacin_del_comportamiento_de_los_personajes.html#constructorActor">Constructor: public Actor()</a></li>
+<li><a href="3_fase_personajes_eleccin_e_implementacin_del_comportamiento_de_los_personajes.html#setImageActor">void setImage()</a></li>
+<li><a href="3_fase_personajes_eleccin_e_implementacin_del_comportamiento_de_los_personajes.html#actActor">void act()</a></li>
+<li><a href="3_fase_personajes_eleccin_e_implementacin_del_comportamiento_de_los_personajes.html#moveActor">void move (int distance)</a></li>
+<li><a href="3_fase_personajes_eleccin_e_implementacin_del_comportamiento_de_los_personajes.html#isAtEdge">boolean isAtEdge()</a></li>
+<li><a href="3_fase_personajes_eleccin_e_implementacin_del_comportamiento_de_los_personajes.html#turnActor">turn (int amount)</a></li>
+<li><a href="3_fase_personajes_eleccin_e_implementacin_del_comportamiento_de_los_personajes.html#turnTowardsActor">turnTowards (int x, int y)</a></li>
+</ul></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id17">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Constructor: public Actor()</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta17_128_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="constructorActor"></a></p>
+<p>Como ya sabemos, el constructor de una clase permite inicializar todos sus campos cuando lo creamos. En este método habrá que incluir las instrucciones que necesitemos para inicializar el objeto</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id16">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">void setImage</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta16_127_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="setImageActor"></a></p>
+<p>Este procedimiento permite cambiar la imagen de un actor. Existen dos opciones:</p>
+<ul>
+<li>A partir del nombre de un archivo de imagen (el fichero deberá estar en la carpeta <em>images</em> del proyecto)</li>
+<li>Usando un objeto de tipo <a href="https://www.greenfoot.org/files/javadoc/greenfoot/GreenfootImage.html" target="_blank" rel="noopener">GreeenfootImage</a></li>
+</ul>
+<p>Por ejemplo, si tenemos el archivo fotoActor.jpg y queremos que sea la imagen del actor, tendríamos que incluir el siguiente código: </p>
+<p style="text-align: center;"><img src="setImageActor.JPG" alt="Código de ejemplo de setImage para la clase Actor" width="236" height="45" /></p>
+<p style="text-align: justify;">La imagen se puede cambiar al principio (en el constructor) o en cualquier otro método. Por ejemplo, cuando se detecte una colisión con un objeto podremos modificar la foto del actor y actualizarla a otra distinta.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id18">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">public void act()</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta18_129_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="actActor"></a></p>
+<p>Este método es el que incluye las instrucciones para que el personaje se comporte como queramos. Por ejemplo, que gire, que se mueva, que vaya rotando, que rebote cuando toque con un borde,... El procedimiento se llama automáticamente cuando se presionan los botones <em>Act </em>o <em>Run</em>. La diferencia entre uno y otro es que con <em>Act </em>las instrucciones se ejecutan solo una vez, mientras que con<em> Run </em>se ejecutarán como si estuvieran en un bucle</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id19">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">public void move (int distance)</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta19_130_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="moveActor"></a> Con este método podemos el actor se moverá la distancia (un número de celdas) que indique el parámetro. Por ejemplo, si usamos <code>move(2)</code> se moverá dos celdas. Si el valor de la distancia es negativo, el movimiento será hacia atrás.</p>
+<p>La dirección del movimiento será la que tenga actualmente el personaje (horizontal por defecto). Para modificar dicha dirección se puede usar el método <code>setRotation(int)</code></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id20">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">public boolean isAtEdge()</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta20_131_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="isAtEdge"></a>En un juego es fundamental saber cuándo un personaje está tocando el borde del escenario. Para ello, Greenfoot proporciona el método  <code>isAtEdge()</code>. Esta función devuelve <code>true</code> si el objeto ha llegado a un borde y <code>false</code> en caso contrario. Se puede utilizar para implementar, por ejemplo, un giro cuando llegue a un extremo del escenario. </p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id21">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">public void turn(int amount)</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta21_132_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="turnActor"></a>Este procedimiento hace que el personaje gire. En concreto, se girará la cantidad de grados que se indique como argumento. Por ejemplo, si se ejecuta <code>turn(90)</code>, el personaje girará 90º. Si el número de grados es positivo el giro será en sentido horario (el de las agujas del reloj). Si el parámetro es negativo, el giro será antihorario (sentido contrario de las agujas del reloj)</p>
+<p></p>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id22">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">public void turnTowards (int x, int y)</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta22_133_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="turnTowardsActor"></a>Además de poder girar el personaje un número determinado de grados, también es posible hacer que el actor gire en una determinada dirección. Para ello, usaremos el método <code>turnTowards (int x, int y)</code>. Cuando se llama a este procedimiento, el personaje girará en la dirección (x,y). Por ejemplo, si se ejecuta  <code>turnTowards (20,10)</code>, el personaje girará hacia la posición de la celda (20,10)</p>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper GalleryIdevice em_iDevice em_iDevice_gallery" id="id25">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Códigos de ejemplo</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<ul class="exeImageGallery" id="exeImageGallery25">
+<li><a title="" href="EjemploActActor1.JPG"><img alt="" width="128" height="128" src="EjemploActActor1Thumbnail.png" /><span class="tit"></span></a></li>
+<li><a title="" href="EjemploActActor2.JPG"><img alt="" width="128" height="128" src="EjemploActActor2Thumbnail.png" /><span class="tit"></span></a></li>
+<li><a title="" href="EjemploActActor3.JPG"><img alt="" width="128" height="128" src="EjemploActActor3Thumbnail.png" /><span class="tit"></span></a></li>
+</ul>
+<script type="text/javascript">$exe.imageGallery.init("exeImageGallery25");</script>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id26">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Tarea 3</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta26_121_2" class="block iDevice_content">
+<div class="pbl-task-description"><p style="text-align: justify;">En esta tarea crearemos los personajes del juego y definiremos cómo se van a mover. </p>
+<p style="text-align: justify;">Tendremos que:</p>
+<ul>
+<li style="text-align: justify;">Crear los personajes que necesitemos para el juego (una clase para cada uno de ellos)</li>
+<li>De cada personaje se determinará:
+<ul>
+<li style="text-align: justify;">Su imagen (o imágenes, si queremos que cambie conforme avance el juego). Deberán ser de elaboración propia o libres de derechos</li>
+<li style="text-align: justify;">El movimiento que va a realizar</li>
+<li style="text-align: justify;">Cómo actuará cuando toque un borde del escenario</li>
+</ul>
+</li>
+</ul>
+<p><strong>Qué se entrega en esta fase</strong></p>
+<ul>
+<li>Url del repositorio donde estarán todos los archivos del proyecto de greenfoot</li>
+<li>Documento explicando brevemente cada personaje, incluyendo:
+<ul>
+<li>Procedencia de las imágenes utilizadas (elaboración propia o url donde se han obtenido)</li>
+<li>Descripción del movimiento y del modo de actuación cuando toque un borde del escenario</li>
+</ul>
+</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nd">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Licencia Creative Commons Reconocimiento Sin obra derivada 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="2_fase_creacin_de_los_escenarios.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="anexo_uso_bsico_de_github.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_intef_js.js"></script></body></html>
