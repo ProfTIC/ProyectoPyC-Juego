@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>4ª fase. Funcionamiento del juego (inicio, fin, puntuaciones,...) | Proyecto programación y computación - Juego con greenfoot </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Mª Dolores Robles Ortega" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nd/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-6"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Proyecto programación y computación - Juego con greenfoot</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Proyecto programación y computación - Juego Space Invaders usando Greenfoot</a></li>
+   <li><a href="1_fase_eleccin_de_las_herramientas_de_trabajo_del_proyecto.html" class="no-ch">1ª fase. Elección de las herramientas de trabajo del proyecto</a></li>
+   <li><a href="2_fase_creacin_de_los_escenarios.html" class="no-ch">2ª fase. Creación de los escenarios</a></li>
+   <li><a href="3_fase_personajes_eleccin_e_implementacin_del_comportamiento_de_los_personajes.html" class="no-ch">3ª fase. Personajes (elección e implementación del comportamiento de los personajes)</a></li>
+   <li id="active"><a href="4_fase_funcionamiento_del_juego_inicio_fin_puntuaciones.html" class="active no-ch">4ª fase. Funcionamiento del juego (inicio, fin, puntuaciones,...)</a></li>
+   <li><a href="anexo_uso_bsico_de_github.html" class="no-ch">Anexo. Uso básico de github</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="3_fase_personajes_eleccin_e_implementacin_del_comportamiento_de_los_personajes.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="anexo_uso_bsico_de_github.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">4ª fase. Funcionamiento del juego (inicio, fin, puntuaciones,...)</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id29">
+<div class="iDevice emphasis0" >
+<div id="ta29_122_2" class="block iDevice_content">
+<div class="exe-text"><p>En esta sección se explicarán, a modo de guía, procedimientos útiles para implementar el funcionamiento del juego. </p>
+<ul>
+<li><a href="4_fase_funcionamiento_del_juego_inicio_fin_puntuaciones.html#pulsacionTecla">Controlar la pulsación de una tecla</a></li>
+<li><a href="4_fase_funcionamiento_del_juego_inicio_fin_puntuaciones.html#cambiarEscenario">Cambiar el escenario</a></li>
+<li><a href="4_fase_funcionamiento_del_juego_inicio_fin_puntuaciones.html#importar">Importar nuevas clases para ampliar la funcionalidad del juego</a></li>
+</ul></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id30">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Controlar la pulsación de una tecla</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta30_123_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="pulsacionTecla"></a></p>
+<p>Para saber qué tecla se ha pulsado tenemos que usar la función <code>Greenfoot.isKeyDown(String keyname)</code> o <code>Greenfoot.getKey()</code>. En ambos casos es necesario conocer el nombre que se le asigna a cada tecla: </p>
+<ul>
+<li>"a", "b", .., "z" (letras del alfabeto)</li>
+<li>"0".."9" (dígitos)</li>
+<li>La mayoría de los signos de puntuación</li>
+<li>"up", "down", "left", "right" (teclas del cursor arriba, abajo, izquierda y derecha)</li>
+<li>"enter", "space", "tab", "escape", "backspace", "shift", "control"</li>
+<li>"F1", "F2", .., "F12" (teclas de función)</li>
+</ul>
+<p style="text-align: justify;">La función Greenfoot.isKeyDown(String keyname) devuelve verdadero si la tecla que se pasa como parámetro se ha pulsado. Por ejemplo, si queremos que un objeto se mueva hacia la derecha si se pulsa la tecla del cursor derecho podemos usar un código similar al que se muestra a continuación: </p>
+<p><img src="MovimientoTeclado.JPG" alt="Código para controlar la pulsación de una tecla usando isKeyDown" width="722" height="273" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Por su parte, la función <code>Greenfoot.getKey()</code> devuelve la última tecla que se  ha pulsado desde la última vez que se llamó a este método. Si no se ha pulsado ninguna tecla, devolverá NULL. Si se pulsa más de una tecla a la vez, devuelve solo la última. </p>
+<p>El código equivalente al anterior para mover un personaje si se pulsa la tecla cursor derecho usando <code>Greenfoot.getKey()</code> sería:</p>
+<p><img src="MovimientoTecladoGetKey.JPG" alt="Código para mover un objeto al pulsar la tecla derecha usando getKey()" width="723" height="225" style="display: block; margin-left: auto; margin-right: auto;" /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id32">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Cambiar el escenario</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta32_125_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="cambiarEscenario"></a></p>
+<p style="text-align: justify;">Tal y como se explicó en la página de <a href="2_fase_creacin_de_los_escenarios.html#funcionesCodigoWorld">creación de escenarios</a>, si queremos cambiar el escenario por otro tendremos que usar la función <code>public static void setWorld (World world)</code>. Este método cambia el mundo principal (el escenario) al que se pasa como parámetro cuando se pulse el botón act. </p>
+<p>Por ejemplo, el siguiente código cambia el escenario a uno de tipo World2 cuando se pulsa la tecla A:</p>
+<p><img src="CambioEscenario.JPG" alt="Código para cambiar el escenario al pulsar la tecla A" width="524" height="128" style="display: block; margin-left: auto; margin-right: auto;" /><br />Si cambiamos el escenario, estamos cambiando también los objetos y actores asociados. Por eso, si lo único que queremos cambiar es la imagen del fondo podemos usar la función <a href="2_fase_creacin_de_los_escenarios.html#edicionEscenario">setBackground(String image)</a></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id33">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Importar nuevas clases para ampliar la funcionalidad del juego</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta33_126_2" class="block iDevice_content">
+<div class="exe-text"><p><a name="importar"></a></p>
+<p>Existen una serie de clases de Greenfoot que podemos importar en nuestro proyecto para mejorar la funcionalidad del mismo. Para ello, seleccionaremos la opción Edit&gt; Import class o bien pulsaremos CTRL+I. Nos aparecerá una ventana similar a la siguiente: </p>
+<p><img src="ImportClass.JPG" alt="Clases que se pueden importar en el proyecto de Greenfoot" width="340" height="280" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Como se puede observar, podemos incluir cualquiera de las siguientes clases: </p>
+<ul>
+<li>Animal. Es la clase base para todos los animales. Además de los métodos de la clase Actor, tiene métodos que permiten comprobar si el personaje está en un extremo del escenario, así como <em>ver</em> y <em>comer</em> a otras clases</li>
+<li style="text-align: justify;">Counter (contador). Esta clase permite mostrar un valor numérico en la pantalla. Un contador es un actor, así que para usarlo necesitamos previamente crearlo y añadirlo al escenario como cualquier otro personaje. Si mantenemos una referencia al contador, podremos ajustar su valor a lo largo de la ejecución del juego</li>
+<li style="text-align: justify;">GifImage (Imagen gif). Esta clase se puede utilizar para leer imágenes de gif animadas y extraer las imágenes individuales de la secuencia de animación. </li>
+<li style="text-align: justify;">Label (Etiqueta). Permite mostrar un valor en la pantalla. También es un actor, por lo que es necesario crearlo y añadirlo al escenario. Si mantenemos la referencia a la etiqueta, podremos cambiar el texto durante la ejecución del juego. </li>
+<li style="text-align: justify;">Scoreboard (marcador). Es una clase de tipo actor que muestra un contador. </li>
+<li style="text-align: justify;">SimpleTimer (temporizador). Se trata de un temporizador sencillo que permite saber cuánto tiempo ha pasado entre dos eventos. </li>
+<li style="text-align: justify;">SmoothMover. Es una variación del actor que mantiene una localización precisa del mismo (en lugar de usar coordenadas enteras utiliza valores decimales de tipo <em>double</em>). Esto permite movimientos más precisos (por ejemplo, de 1 pixel o menos)</li>
+</ul>
+<p>A continuación se muestra un ejemplo del uso de la clase <em>Label</em> para crear una etiqueta que se muestre al inicio del juego. En concreto, en el procedimiento <em>started</em> incluimos el código para crear el objeto de tipo <em>Label</em> y añadirlo al escenario:  </p>
+<p><img src="EjemploCodLabel.JPG" alt="Ejemplo de código de uso de la etiqueta label" width="521" height="136" style="display: block; margin-left: auto; margin-right: auto;" />El resultado sería el siguiente: </p>
+<p><img src="ResultadoLabel.JPG" alt="Resultado del código de ejecución de Label" width="809" height="575" style="display: block; margin-left: auto; margin-right: auto;" /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id34">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Tarea 4</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta34_127_2" class="block iDevice_content">
+<div class="pbl-task-description"><p>En esta tarea terminaremos de crear el juego e implementaremos todas las funciones necesarias para ejecutarlo. Como <strong>mínimo</strong> tendrá que tener: </p>
+<ul>
+<li>Pantalla de inicio</li>
+<li>Escenario de juego</li>
+<li>Las naves deberán moverse con dos teclas </li>
+<li>Se incluirán al menos dos de las clases que permiten ampliar la funcionalidad (descritas en el apartado anterior) </li>
+<li>Pantalla de fin</li>
+</ul>
+<p>Cualquier otra funcionalidad que se implemente para mejorar el juego (por ejemplo, niveles, varias pantallas,...) se valorará positivamente</p>
+<p><strong>Qué se entrega en esta fase</strong></p>
+<ul>
+<li>Url del repositorio donde estarán todos los archivos del proyecto de greenfoot</li>
+<li>Documentación del juego
+<ul>
+<li>Explicación de las clases y los métodos que se han creado</li>
+<li>Manual de usuario: explicación de cómo funciona el juego (pantallas, teclas, etc:)</li>
+</ul>
+</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nd">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Licencia Creative Commons Reconocimiento Sin obra derivada 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="3_fase_personajes_eleccin_e_implementacin_del_comportamiento_de_los_personajes.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="anexo_uso_bsico_de_github.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_intef_js.js"></script></body></html>
